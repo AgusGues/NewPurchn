@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E645A81-518F-441B-9CAE-030DCC8AC7F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessFacade</RootNamespace>
+    <AssemblyName>BusinessFacade</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.60.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.60.5\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractFacade.cs" />
+    <Compile Include="AbstractFacade2.cs" />
+    <Compile Include="AbstractTransactionFacade.cs" />
+    <Compile Include="AccClosingFacade.cs" />
+    <Compile Include="AccClosingPeriodeFacade.cs" />
+    <Compile Include="AccountingReportFacade.cs" />
+    <Compile Include="AdjustDetailFacade.cs" />
+    <Compile Include="AdjustFacade.cs" />
+    <Compile Include="AdjustProcessFacade.cs" />
+    <Compile Include="ApvPakaiFacade.cs" />
+    <Compile Include="AssetFacade.cs" />
+    <Compile Include="AssetManagementFacade.cs" />
+    <Compile Include="BatuBaraFacade.cs" />
+    <Compile Include="BDForkliftFacade.cs" />
+    <Compile Include="BendingStrengthFacade.cs" />
+    <Compile Include="BeritaAcaraFacade.cs" />
+    <Compile Include="BiayaFacade.cs" />
+    <Compile Include="BItemMerkFacade.cs" />
+    <Compile Include="BItemNameFacade.cs" />
+    <Compile Include="BItemTypeFacade.cs" />
+    <Compile Include="BreakBMChargeFacade.cs" />
+    <Compile Include="BreakBMFacade.cs" />
+    <Compile Include="BreakBMGroupFacade.cs" />
+    <Compile Include="BreakBMPlantFacade.cs" />
+    <Compile Include="BreakBMProblemFacade.cs" />
+    <Compile Include="BreakDownFNFacade.cs" />
+    <Compile Include="BudgetAtkFacade.cs" />
+    <Compile Include="BudgetingFacade.cs" />
+    <Compile Include="CategoryFacade.cs" />
+    <Compile Include="CityFacade.cs" />
+    <Compile Include="CompanyFacade.cs" />
+    <Compile Include="ConvertanFacade.cs" />
+    <Compile Include="ConvertanProcessFacade.cs" />
+    <Compile Include="CostCenterFacade.cs" />
+    <Compile Include="CustomerFacade.cs" />
+    <Compile Include="DataForFacade.cs" />
+    <Compile Include="DepoFacade.cs" />
+    <Compile Include="DepoKertas.cs" />
+    <Compile Include="DeptFacade.cs" />
+    <Compile Include="DistributorFacade.cs" />
+    <Compile Include="DocumentIDFacade.cs" />
+    <Compile Include="EditSPPDetailFacade.cs" />
+    <Compile Include="EditSPPFacade.cs" />
+    <Compile Include="EmailReportFacade.cs" />
+    <Compile Include="EncryptPasswordFacade.cs" />
+    <Compile Include="EstimasiMaterialNfFacade.cs" />
+    <Compile Include="EventLogFacade.cs" />
+    <Compile Include="EventLogProcess.cs" />
+    <Compile Include="ExpedisiDetailFacade.cs" />
+    <Compile Include="ExpedisilFacade.cs" />
+    <Compile Include="FormPakaiSparePartFacade.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Global2.cs" />
+    <Compile Include="GL\GL_CashFlowFacade.cs" />
+    <Compile Include="GL\GL_CcyFacade.cs" />
+    <Compile Include="GL\GL_CcyRateFacade.cs" />
+    <Compile Include="GL\GL_ChartBalFacade.cs" />
+    <Compile Include="GL\GL_ChartBalProgressFacade.cs" />
+    <Compile Include="GL\GL_ChartOfAccountFacade.cs" />
+    <Compile Include="GL\GL_ClosePeriodFacade.cs" />
+    <Compile Include="GL\GL_ClosePeriodProcessFacade.cs" />
+    <Compile Include="GL\GL_CostCenterFacade.cs" />
+    <Compile Include="GL\GL_CustBalFacade.cs" />
+    <Compile Include="GL\GL_CustomerFacade.cs" />
+    <Compile Include="GL\GL_DeptFacade.cs" />
+    <Compile Include="GL\GL_JournalProcessFacade.cs" />
+    <Compile Include="GL\GL_JurDetAPFacade.cs" />
+    <Compile Include="GL\GL_JurDetARFacade.cs" />
+    <Compile Include="GL\GL_JurDetBAFacade.cs" />
+    <Compile Include="GL\GL_JurDetFacade.cs" />
+    <Compile Include="GL\GL_JurHeadFacade.cs" />
+    <Compile Include="GL\GL_MappingCOAFacade.cs" />
+    <Compile Include="GL\GL_ParameterFacade.cs" />
+    <Compile Include="GL\GL_ReportFacade.cs" />
+    <Compile Include="GL\GL_SuppBalFacade.cs" />
+    <Compile Include="GL\GL_SupplierFacade.cs" />
+    <Compile Include="GL\GL_VoucherFacade.cs" />
+    <Compile Include="GL\ReportFacadeGL.cs" />
+    <Compile Include="GroupsPurchnFacade.cs" />
+    <Compile Include="HargaBarangFacade.cs" />
+    <Compile Include="HargaKertasFacade.cs" />
+    <Compile Include="HargaSupplierFacade.cs" />
+    <Compile Include="HariLiburFacade.cs" />
+    <Compile Include="HelpDeskKeluhanFacade.cs" />
+    <Compile Include="HistPOFacade.cs" />
+    <Compile Include="HistSPPFacade.cs" />
+    <Compile Include="ImprovementFacade.cs" />
+    <Compile Include="IndentFacade.cs" />
+    <Compile Include="Inifiles.cs" />
+    <Compile Include="InputProjectNfFacade.cs" />
+    <Compile Include="InventoryFacade.cs" />
+    <Compile Include="InventoryStockFacade.cs" />
+    <Compile Include="INVSuratJalanKeluarFacade.cs" />
+    <Compile Include="ISO_BagianFacade.cs" />
+    <Compile Include="ISO_CategoryFacade.cs" />
+    <Compile Include="ISO_DeptFacade.cs" />
+    <Compile Include="ISO_DMDFacade.cs" />
+    <Compile Include="ISO_DocumentNoFacade.cs" />
+    <Compile Include="ISO_MasterUPD.cs" />
+    <Compile Include="ISO_PES.cs" />
+    <Compile Include="ISO_SOPFacade.cs" />
+    <Compile Include="ISO_SOPProcessFacade.cs" />
+    <Compile Include="ISO_SOPScoreFacade.cs" />
+    <Compile Include="ISO_UPD2Facade.cs" />
+    <Compile Include="ISO_UpdDocNoFacade.cs" />
+    <Compile Include="ISO_UpdFacades.cs" />
+    <Compile Include="ISO_UpdMasterDocFacade.cs" />
+    <Compile Include="ISO_UpdProcessFacade.cs" />
+    <Compile Include="ISO_UpdTypeDocFacade.cs" />
+    <Compile Include="ISO_UserFacade.cs" />
+    <Compile Include="ItemsFacade.cs" />
+    <Compile Include="ItemTypePurchnFacade.cs" />
+    <Compile Include="JobDeskBawahanFacade.cs" />
+    <Compile Include="JobDeskDetaillFacade.cs" />
+    <Compile Include="JobDeskFacade.cs" />
+    <Compile Include="JobDeskFisikFacade.cs" />
+    <Compile Include="JobDeskHubunganKerjaFacade.cs" />
+    <Compile Include="JobDeskKeterampilanFacade.cs" />
+    <Compile Include="JobDeskNonFisikFacade.cs" />
+    <Compile Include="JobDeskPendidikanFacade.cs" />
+    <Compile Include="JobDeskPengalamanFacade.cs" />
+    <Compile Include="JobDeskPengetahuanFacade.cs" />
+    <Compile Include="JobDeskProcessFacade.cs" />
+    <Compile Include="JobDeskTanggungJawabFacade.cs" />
+    <Compile Include="JobDeskTPJabatanFacade.cs" />
+    <Compile Include="JobDeskTUJabatanFacade.cs" />
+    <Compile Include="JobDeskUsiaFacade.cs" />
+    <Compile Include="JobDeskWewenangFacade.cs" />
+    <Compile Include="KartuStockNfFacade.cs" />
+    <Compile Include="KasbonApprovalFacade.cs" />
+    <Compile Include="KasbonDetailFacade.cs" />
+    <Compile Include="KasbonFacade.cs" />
+    <Compile Include="KasbonNumberFacade.cs" />
+    <Compile Include="KasbonProcessFacade.cs" />
+    <Compile Include="LapHarianFacade.cs" />
+    <Compile Include="LapHarianProcessFacade.cs" />
+    <Compile Include="Laporan.cs" />
+    <Compile Include="LaporanBulananFacade.cs" />
+    <Compile Include="LapPembelianBarangNfFacade.cs" />
+    <Compile Include="LapStockBarangNfFacade.cs" />
+    <Compile Include="LapWorkOrderNfFacade.cs" />
+    <Compile Include="LoadingTimeFacade.cs" />
+    <Compile Include="MasterKendaraanFacade.cs" />
+    <Compile Include="MasterReguFacade.cs" />
+    <Compile Include="MasterScoreNfFacade.cs" />
+    <Compile Include="MasterSectionNfFacade.cs" />
+    <Compile Include="MasterTransaksiFacade.cs" />
+    <Compile Include="MataUangFacade.cs" />
+    <Compile Include="MataUangKursFacade.cs" />
+    <Compile Include="MinusQtyPOFacade.cs" />
+    <Compile Include="MTC_ArmadaFacade.cs" />
+    <Compile Include="MTC_ListrikFacade.cs" />
+    <Compile Include="MTC_MacSysFacade.cs" />
+    <Compile Include="MTC_MacSysPartFacade.cs" />
+    <Compile Include="MTC_PerawatanFacade.cs" />
+    <Compile Include="MTC_ProjectFacade.cs" />
+    <Compile Include="MTC_ProjectFacade_Rev1.cs" />
+    <Compile Include="MTC_ProjectPakaiFacade.cs" />
+    <Compile Include="MTC_ProjectProsesPakai.cs" />
+    <Compile Include="MTC_SarmutFacade.cs" />
+    <Compile Include="MTC_SarmutProcesFacade.cs" />
+    <Compile Include="MTC_TargetBudgetFacade.cs" />
+    <Compile Include="MTC_ZonaFacade.cs" />
+    <Compile Include="NewSPPDetailFacade.cs" />
+    <Compile Include="NewSuppPurchFacade.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="OPDetailFacade.cs" />
+    <Compile Include="OPFacade.cs" />
+    <Compile Include="OtorFacade.cs" />
+    <Compile Include="PakaiDetailFacade.cs" />
+    <Compile Include="PakaiDocNoFacade.cs" />
+    <Compile Include="PakaiFacade.cs" />
+    <Compile Include="PakaiFormulaFacade.cs" />
+    <Compile Include="PakaiProcessFacade.cs" />
+    <Compile Include="PaketItemDetailFacade.cs" />
+    <Compile Include="PbahanBakuFacade.cs" />
+    <Compile Include="Pel_T1_JemurFacade.cs" />
+    <Compile Include="PlanningFacade.cs" />
+    <Compile Include="PlantGroupFacade.cs" />
+    <Compile Include="POApprovalStatusFacade.cs" />
+    <Compile Include="POCloseCancelFacade.cs" />
+    <Compile Include="POPurchnDetailEditFacade.cs" />
+    <Compile Include="POPurchnDetailFacade.cs" />
+    <Compile Include="PoPurchnDtlNfFacade.cs" />
+    <Compile Include="POPurchnFacade.cs" />
+    <Compile Include="PoPurchnNfFacade.cs" />
+    <Compile Include="POPurchnProcessFacade.cs" />
+    <Compile Include="POPurchnSendMailFacade.cs" />
+    <Compile Include="printersFacade.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RakFacade.cs" />
+    <Compile Include="ReceiptAssetProsessFacade.cs" />
+    <Compile Include="ReceiptDetailFacade.cs" />
+    <Compile Include="ReceiptDocNoFacade.cs" />
+    <Compile Include="ReceiptFacade.cs" />
+    <Compile Include="ReceiptMRSDtlNfFacade.cs" />
+    <Compile Include="ReceiptMRSNfFacade.cs" />
+    <Compile Include="ReceiptProcessFacade.cs" />
+    <Compile Include="RekapAssetNfFacade.cs" />
+    <Compile Include="RekapKpiNfFacade.cs" />
+    <Compile Include="RekapPakaiNfFacade.cs" />
+    <Compile Include="RekapSopNf.cs" />
+    <Compile Include="RekapSopNfFacade.cs" />
+    <Compile Include="RekapTaskNfFacade.cs" />
+    <Compile Include="RekapWarningOrderNfFacade.cs" />
+    <Compile Include="ReportFacade.cs" />
+    <Compile Include="ReportFacadeAcc.cs" />
+    <Compile Include="ReportFacadeSPKP.cs" />
+    <Compile Include="ReportOpnameFacade.cs" />
+    <Compile Include="ReportPelFacade.cs" />
+    <Compile Include="ReportUPDFacade.cs" />
+    <Compile Include="RepostingFacade.cs" />
+    <Compile Include="ReturPakaiDetailFacade.cs" />
+    <Compile Include="ReturPakaiFacade.cs" />
+    <Compile Include="ReturPakaiProcessFacade.cs" />
+    <Compile Include="RevisiPOFacade.cs" />
+    <Compile Include="RoleRulesFacade.cs" />
+    <Compile Include="RolesFacade.cs" />
+    <Compile Include="ROPFacade.cs" />
+    <Compile Include="RulesFacade.cs" />
+    <Compile Include="SaldoInventoryFacade.cs" />
+    <Compile Include="SaldoInventoryProcessFacade.cs" />
+    <Compile Include="SaldoSupplierFacade.cs" />
+    <Compile Include="SaldoSupplierProcessFacade.cs" />
+    <Compile Include="SarmutFacade.cs" />
+    <Compile Include="SarMutPencapaianNilaiFacade.cs" />
+    <Compile Include="SarmutPESFacade.cs" />
+    <Compile Include="SarmutPESProcessFacade.cs" />
+    <Compile Include="ScheduleDetailFacade.cs" />
+    <Compile Include="ScheduleFacade.cs" />
+    <Compile Include="ScheduleOPFacade.cs" />
+    <Compile Include="ScheduleTOFacade.cs" />
+    <Compile Include="ScrubFacade.cs" />
+    <Compile Include="SerahTerimaAssetNfFacade.cs" />
+    <Compile Include="SerahTerimaNfFacade.cs" />
+    <Compile Include="SJNumberFacade.cs" />
+    <Compile Include="SPKPFacade.cs" />
+    <Compile Include="SPKPFacadeDetail.cs" />
+    <Compile Include="SPPDetailFacade.cs" />
+    <Compile Include="SPPFacade.cs" />
+    <Compile Include="SPPMultiGudangFacade.cs" />
+    <Compile Include="SPPNumberFacade.cs" />
+    <Compile Include="SPPPrivateFacade.cs" />
+    <Compile Include="SPPProcessFacade.cs" />
+    <Compile Include="StockMovementFacade.cs" />
+    <Compile Include="StokerFacade.cs" />
+    <Compile Include="SubDistributorFacade.cs" />
+    <Compile Include="SuppPurchFacade.cs" />
+    <Compile Include="SuratJalanDetailFacade.cs" />
+    <Compile Include="SuratJalanDetailTOFacade.cs" />
+    <Compile Include="SuratJalanFacade.cs" />
+    <Compile Include="SuratJalanProcessFacade.cs" />
+    <Compile Include="SuratJalanProcessTOFacade.cs" />
+    <Compile Include="SuratJalanTOFacade.cs" />
+    <Compile Include="TabelConversiFacade.cs" />
+    <Compile Include="TabelConversiProcessFacade.cs" />
+    <Compile Include="TaskFacade.cs" />
+    <Compile Include="TaskProcessFacade.cs" />
+    <Compile Include="TawarDetailFacade.cs" />
+    <Compile Include="TawarFacade.cs" />
+    <Compile Include="TawarProcessFacade.cs" />
+    <Compile Include="TerbilangFacade.cs" />
+    <Compile Include="TerminBayarFacade.cs" />
+    <Compile Include="TermOfPayFacade.cs" />
+    <Compile Include="TransaksiSPP3DtlFacade.cs" />
+    <Compile Include="TransaksiSPP3Facade.cs" />
+    <Compile Include="TransferDetailFacade.cs" />
+    <Compile Include="TransferOrderFacade.cs" />
+    <Compile Include="UOMFacade.cs" />
+    <Compile Include="UserAuth.cs" />
+    <Compile Include="UserPesNffacade.cs" />
+    <Compile Include="UserRolesFacade.cs" />
+    <Compile Include="UsersFacade.cs" />
+    <Compile Include="UsersHeadFacade.cs" />
+    <Compile Include="webservicefacade.cs" />
+    <Compile Include="WorkOrderFacade.cs" />
+    <Compile Include="WorkOrderFacade_New.cs" />
+    <Compile Include="ZetroLib.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{7730aae9-dfa6-45a7-afaa-11ce21a42b5a}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{eb796d78-324c-47cd-a816-e6f7e4951987}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BusinessFacade.dll" />
+    <Content Include="bin\Debug\BusinessFacade.pdb" />
+    <Content Include="bin\Debug\DataAccessLayer.dll" />
+    <Content Include="bin\Debug\DataAccessLayer.pdb" />
+    <Content Include="bin\Debug\Domain.dll" />
+    <Content Include="bin\Debug\Domain.pdb" />
+    <Content Include="bin\Release\BusinessFacade.dll" />
+    <Content Include="bin\Release\BusinessFacade.pdb" />
+    <Content Include="bin\Release\DataAccessLayer.dll" />
+    <Content Include="bin\Release\DataAccessLayer.pdb" />
+    <Content Include="bin\Release\Domain.dll" />
+    <Content Include="bin\Release\Domain.pdb" />
+    <Content Include="obj\Release\BusinessFacade.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\BusinessFacade.dll" />
+    <Content Include="obj\Release\BusinessFacade.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Release\BusinessFacade.csproj.CopyComplete" />
+    <None Include="obj\Release\BusinessFacade.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\BusinessFacade.csprojAssemblyReference.cache" />
+    <None Include="obj\Release\BusinessFacade.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Release\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

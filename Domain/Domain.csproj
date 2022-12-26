@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB796D78-324C-47CD-A816-E6F7E4951987}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Domain</RootNamespace>
+    <AssemblyName>Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccClosing.cs" />
+    <Compile Include="AccClosingPeriode.cs" />
+    <Compile Include="AccountingReport.cs" />
+    <Compile Include="Adjust.cs" />
+    <Compile Include="AdjustDetail.cs" />
+    <Compile Include="Agen.cs" />
+    <Compile Include="ApvPakai.cs" />
+    <Compile Include="Area.cs" />
+    <Compile Include="AreaDistribusi.cs" />
+    <Compile Include="Asset.cs" />
+    <Compile Include="AssetManagement.cs" />
+    <Compile Include="BankAccount.cs" />
+    <Compile Include="Banks.cs" />
+    <Compile Include="Batubara.cs" />
+    <Compile Include="BD_Forklift.cs" />
+    <Compile Include="BendingStrength.cs" />
+    <Compile Include="Biaya.cs" />
+    <Compile Include="BItemMerk.cs" />
+    <Compile Include="BItemName.cs" />
+    <Compile Include="BItemType.cs" />
+    <Compile Include="Branch.cs" />
+    <Compile Include="BranchDepo.cs" />
+    <Compile Include="BreakBM.cs" />
+    <Compile Include="BreakBMCharge.cs" />
+    <Compile Include="BreakBMGroup.cs" />
+    <Compile Include="BreakBMPlant.cs" />
+    <Compile Include="BreakBMProblem.cs" />
+    <Compile Include="BreakCharge.cs" />
+    <Compile Include="BreakDownFN.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="ChartOfAccount.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Closper.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="Convertan.cs" />
+    <Compile Include="CostCenter.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="DataFor.cs" />
+    <Compile Include="Defect.cs" />
+    <Compile Include="DefectDetail.cs" />
+    <Compile Include="Depo.cs" />
+    <Compile Include="Dept.cs" />
+    <Compile Include="DeptSection.cs" />
+    <Compile Include="Distributor.cs" />
+    <Compile Include="DocumentID.cs" />
+    <Compile Include="DomainFactory\BM_Destacking.cs" />
+    <Compile Include="DomainFactory\BM_Palet.cs" />
+    <Compile Include="DomainFactory\FC_Items.cs" />
+    <Compile Include="DomainFactory\FC_Lokasi.cs" />
+    <Compile Include="DomainFactory\FC_Rak.cs" />
+    <Compile Include="DomainFactory\ReturnBj.cs" />
+    <Compile Include="DomainFactory\T1Serah.cs" />
+    <Compile Include="DomainFactory\T1_Adjust.cs" />
+    <Compile Include="DomainFactory\T1_AdjustDetail.cs" />
+    <Compile Include="DomainFactory\T1_AdjustListplank.cs" />
+    <Compile Include="DomainFactory\T1_AdjustListplankDetail.cs" />
+    <Compile Include="DomainFactory\T1_Bevel.cs" />
+    <Compile Include="DomainFactory\T1_Jemur.cs" />
+    <Compile Include="DomainFactory\T1_ListPlank.cs" />
+    <Compile Include="DomainFactory\T1_ListPlank2.cs" />
+    <Compile Include="DomainFactory\T1_LR1_Bevel.cs" />
+    <Compile Include="DomainFactory\T1_LR1_ListPlank.cs" />
+    <Compile Include="DomainFactory\T1_LR1_RuningSaw.cs" />
+    <Compile Include="DomainFactory\T1_LR1_Straping.cs" />
+    <Compile Include="DomainFactory\T1_LR2_Bevel.cs" />
+    <Compile Include="DomainFactory\T1_LR2_ListPlank.cs" />
+    <Compile Include="DomainFactory\T1_LR2_RuningSaw.cs" />
+    <Compile Include="DomainFactory\T1_LR2_Straping.cs" />
+    <Compile Include="DomainFactory\T1_LR3_Bevel.cs" />
+    <Compile Include="DomainFactory\T1_LR3_ListPlank.cs" />
+    <Compile Include="DomainFactory\T1_LR3_RuningSaw.cs" />
+    <Compile Include="DomainFactory\T1_LR3_Straping.cs" />
+    <Compile Include="DomainFactory\T1_PaletPelarian.cs" />
+    <Compile Include="DomainFactory\T1_Print.cs" />
+    <Compile Include="DomainFactory\T1_RuningSaw.cs" />
+    <Compile Include="DomainFactory\T1_SaldoPerLokasi.cs" />
+    <Compile Include="DomainFactory\T1_Serah.cs" />
+    <Compile Include="DomainFactory\T1_Straping.cs" />
+    <Compile Include="DomainFactory\T3_Adjust.cs" />
+    <Compile Include="DomainFactory\T3_AdjustDetail.cs" />
+    <Compile Include="DomainFactory\T3_Asimetris.cs" />
+    <Compile Include="DomainFactory\T3_BA.cs" />
+    <Compile Include="DomainFactory\T3_BADetail.cs" />
+    <Compile Include="DomainFactory\T3_Biaya.cs" />
+    <Compile Include="DomainFactory\T3_Customer.cs" />
+    <Compile Include="DomainFactory\T3_Groups.cs" />
+    <Compile Include="DomainFactory\T3_Kirim.cs" />
+    <Compile Include="DomainFactory\T3_KirimDetail.cs" />
+    <Compile Include="DomainFactory\T3_MutasiLok.cs" />
+    <Compile Include="DomainFactory\T3_MutasiWIP.cs" />
+    <Compile Include="DomainFactory\T3_Rekap.cs" />
+    <Compile Include="DomainFactory\T3_Retur.cs" />
+    <Compile Include="DomainFactory\T3_ReturMaster.cs" />
+    <Compile Include="DomainFactory\T3_Serah.cs" />
+    <Compile Include="DomainFactory\T3_SiapKirim.cs" />
+    <Compile Include="DomainFactory\T3_Simetris.cs" />
+    <Compile Include="DomainFactory\T3_SJDetail.cs" />
+    <Compile Include="DomainFactory\T3_SJ_CM.cs" />
+    <Compile Include="DomainFactory\T3_SJ_CMDetail.cs" />
+    <Compile Include="DomainFactory\T3_SJ_Ex.cs" />
+    <Compile Include="DomainFactory\T3_SJ_ExDetail.cs" />
+    <Compile Include="DomainFactory\T3_Supply.cs" />
+    <Compile Include="DomainTPP\TPP.cs" />
+    <Compile Include="DomainTPP\TPP_Analisa_Penyebab.cs" />
+    <Compile Include="DomainTPP\TPP_Approval.cs" />
+    <Compile Include="DomainTPP\TPP_Asal_Masalah.cs" />
+    <Compile Include="DomainTPP\TPP_Dept.cs" />
+    <Compile Include="DomainTPP\TPP_Klausul_No.cs" />
+    <Compile Include="DomainTPP\TPP_Lampiran.cs" />
+    <Compile Include="DomainTPP\TPP_Penyebab.cs" />
+    <Compile Include="DomainTPP\TPP_Penyebab_Detail.cs" />
+    <Compile Include="DomainTPP\TPP_Tindakan.cs" />
+    <Compile Include="DomainTPP\TPP_Users.cs" />
+    <Compile Include="EditSPP.cs" />
+    <Compile Include="EditSPPDetail.cs" />
+    <Compile Include="EstimasiMaterialNf.cs" />
+    <Compile Include="EventLog.cs" />
+    <Compile Include="Expedisi.cs" />
+    <Compile Include="ExpedisiDetail.cs" />
+    <Compile Include="Ex_Route.cs" />
+    <Compile Include="Fabrikasi.cs" />
+    <Compile Include="FC_ItemsNF.cs" />
+    <Compile Include="FG.cs" />
+    <Compile Include="Formula.cs" />
+    <Compile Include="GeneralResponseMessage.cs" />
+    <Compile Include="GL\GLSuppBal.cs" />
+    <Compile Include="GL\GL_Bank.cs" />
+    <Compile Include="GL\GL_CashFlow.cs" />
+    <Compile Include="GL\GL_Ccy.cs" />
+    <Compile Include="GL\GL_CcyRate.cs" />
+    <Compile Include="GL\GL_ChartBal.cs" />
+    <Compile Include="GL\GL_ChartofAccount.cs" />
+    <Compile Include="GL\GL_ClosePeriod.cs" />
+    <Compile Include="GL\GL_CostCenter.cs" />
+    <Compile Include="GL\GL_CustBal.cs" />
+    <Compile Include="GL\GL_Customer.cs" />
+    <Compile Include="GL\GL_Dept.cs" />
+    <Compile Include="GL\GL_JournalAutoGrid.cs" />
+    <Compile Include="GL\GL_JurDet.cs" />
+    <Compile Include="GL\GL_JurDetAP.cs" />
+    <Compile Include="GL\GL_JurDetAR.cs" />
+    <Compile Include="GL\GL_JurDetBA.cs" />
+    <Compile Include="GL\GL_JurHead.cs" />
+    <Compile Include="GL\GL_MappingCOA.cs" />
+    <Compile Include="GL\GL_Parameter.cs" />
+    <Compile Include="GL\GL_Supplier.cs" />
+    <Compile Include="GL\GL_Voucher.cs" />
+    <Compile Include="Grades.cs" />
+    <Compile Include="GRCBaseDomain.cs" />
+    <Compile Include="Groups.cs" />
+    <Compile Include="GroupsPurchn.cs" />
+    <Compile Include="HargaBarang.cs" />
+    <Compile Include="HargaKertas.cs" />
+    <Compile Include="HargaSupplier.cs" />
+    <Compile Include="HariLibur.cs" />
+    <Compile Include="HelpDeskCategory.cs" />
+    <Compile Include="HelpDeskKeluhan.cs" />
+    <Compile Include="HistPO.cs" />
+    <Compile Include="HistSPP.cs" />
+    <Compile Include="HPP.cs" />
+    <Compile Include="Improvement.cs" />
+    <Compile Include="Indent.cs" />
+    <Compile Include="InputProjectNf.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="InventoryDepo.cs" />
+    <Compile Include="InventoryStock.cs" />
+    <Compile Include="InvRak.cs" />
+    <Compile Include="InvRakBarang.cs" />
+    <Compile Include="ISO_Bagian.cs" />
+    <Compile Include="ISO_Catagory.cs" />
+    <Compile Include="ISO_Dept.cs" />
+    <Compile Include="ISO_DeptM1.cs" />
+    <Compile Include="ISO_DocumentNo.cs" />
+    <Compile Include="ISO_SOP.cs" />
+    <Compile Include="ISO_SOPScore.cs" />
+    <Compile Include="ISO_Upd.cs" />
+    <Compile Include="ISO_UPDdetail.cs" />
+    <Compile Include="ISO_UpdDMD.cs" />
+    <Compile Include="ISO_UpdDocNo.cs" />
+    <Compile Include="ISO_UpdMasterDoc.cs" />
+    <Compile Include="ISO_UpdTypeDoc.cs" />
+    <Compile Include="ISO_Users.cs" />
+    <Compile Include="ItemPoint.cs" />
+    <Compile Include="ItemPrice.cs" />
+    <Compile Include="Items.cs" />
+    <Compile Include="ItemType.cs" />
+    <Compile Include="ItemTypePurchn.cs" />
+    <Compile Include="JobDesk.cs" />
+    <Compile Include="JobdeskDetail.cs" />
+    <Compile Include="JournalBank.cs" />
+    <Compile Include="Kabupaten.cs" />
+    <Compile Include="KartuStock.cs" />
+    <Compile Include="KartuStockNf.cs" />
+    <Compile Include="Kasbon.cs" />
+    <Compile Include="KasbonDetail.cs" />
+    <Compile Include="Lap.cs" />
+    <Compile Include="LapBulAll.cs" />
+    <Compile Include="LapHarian.cs" />
+    <Compile Include="LaporanBulanan.cs" />
+    <Compile Include="LapPembelianBarangNf.cs" />
+    <Compile Include="LapStockBarangNf.cs" />
+    <Compile Include="LapWorkOrderNf.cs" />
+    <Compile Include="LastPrice.cs" />
+    <Compile Include="LinkItemIDMkt.cs" />
+    <Compile Include="LitemName.cs" />
+    <Compile Include="LoadingTime.cs" />
+    <Compile Include="LockSys.cs" />
+    <Compile Include="MasterDefect.cs" />
+    <Compile Include="MasterDeptDefect.cs" />
+    <Compile Include="MasterGroupCutter.cs" />
+    <Compile Include="MasterGroupJemur.cs" />
+    <Compile Include="MasterJenisProduct.cs" />
+    <Compile Include="MasterKendaraan.cs" />
+    <Compile Include="MasterKurs.cs" />
+    <Compile Include="MasterKursPIB.cs" />
+    <Compile Include="MasterPlan.cs" />
+    <Compile Include="MasterProduk.cs" />
+    <Compile Include="MasterScoreNf.cs" />
+    <Compile Include="MasterSectionNf.cs" />
+    <Compile Include="MasterUkuran.cs" />
+    <Compile Include="MataUang.cs" />
+    <Compile Include="MataUangKurs.cs" />
+    <Compile Include="Menus.cs" />
+    <Compile Include="MTC_Armada.cs" />
+    <Compile Include="MTC_Listrik.cs" />
+    <Compile Include="MTC_MacSys.cs" />
+    <Compile Include="MTC_MacSysPart.cs" />
+    <Compile Include="MTC_Perawatan.cs" />
+    <Compile Include="MTC_Project.cs" />
+    <Compile Include="MTC_ProjectPakai.cs" />
+    <Compile Include="MTC_Project_Rev1.cs" />
+    <Compile Include="MTC_Sarmut.cs" />
+    <Compile Include="MTC_TargetBudget.cs" />
+    <Compile Include="MTC_Zona.cs" />
+    <Compile Include="MutasiAsset.cs" />
+    <Compile Include="MutasiAssetDetail.cs" />
+    <Compile Include="NewSPPDetail.cs" />
+    <Compile Include="NewSuppPurch.cs" />
+    <Compile Include="NotaRetur.cs" />
+    <Compile Include="NotaReturDetail.cs" />
+    <Compile Include="OP.cs" />
+    <Compile Include="OPDetail.cs" />
+    <Compile Include="OPDetailPaymentInfo.cs" />
+    <Compile Include="OptimumStockData.cs" />
+    <Compile Include="Otor.cs" />
+    <Compile Include="Pakai.cs" />
+    <Compile Include="PakaiDetail.cs" />
+    <Compile Include="PakaiDocNo.cs" />
+    <Compile Include="PakaiFormula.cs" />
+    <Compile Include="PakaiSparePartNf.cs" />
+    <Compile Include="PaketItemDetail.cs" />
+    <Compile Include="PbahanBaku.cs" />
+    <Compile Include="PCash.cs" />
+    <Compile Include="Pelarian\MasterRegu.cs" />
+    <Compile Include="Pelarian\MasterTransaksi.cs" />
+    <Compile Include="Pelarian\Pel_T1_Jemur.cs" />
+    <Compile Include="PES.cs" />
+    <Compile Include="Planning.cs" />
+    <Compile Include="Plant.cs" />
+    <Compile Include="PlantGroup.cs" />
+    <Compile Include="PointToko.cs" />
+    <Compile Include="POPurchn.cs" />
+    <Compile Include="POPurchnDetail.cs" />
+    <Compile Include="PoPurchnNf.cs" />
+    <Compile Include="PostingPeriod.cs" />
+    <Compile Include="printers.cs" />
+    <Compile Include="Produk.cs" />
+    <Compile Include="Promo.cs" />
+    <Compile Include="Promotion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Propinsi.cs" />
+    <Compile Include="PurchasingNf.cs" />
+    <Compile Include="Quota.cs" />
+    <Compile Include="Rak.cs" />
+    <Compile Include="Receipt.cs" />
+    <Compile Include="ReceiptDetail.cs" />
+    <Compile Include="ReceiptDocNo.cs" />
+    <Compile Include="ReceiptMRSNf.cs" />
+    <Compile Include="RekapAssetNf.cs" />
+    <Compile Include="RekapKpiNf.cs" />
+    <Compile Include="RekapOrder.cs" />
+    <Compile Include="RekapPakaiNf.cs" />
+    <Compile Include="RekapTaskNf.cs" />
+    <Compile Include="RekapWarningOrderNf.cs" />
+    <Compile Include="DomainReportT1T3.cs" />
+    <Compile Include="Reposting.cs" />
+    <Compile Include="ReturPakai.cs" />
+    <Compile Include="ReturPakaiDetail.cs" />
+    <Compile Include="ReturSupplier.cs" />
+    <Compile Include="ReturSupplierDetail.cs" />
+    <Compile Include="RevisiPO.cs" />
+    <Compile Include="RoleRules.cs" />
+    <Compile Include="Roles.cs" />
+    <Compile Include="ROP.cs" />
+    <Compile Include="Rules.cs" />
+    <Compile Include="SaldoInventory.cs" />
+    <Compile Include="SaldoInventoryBJ.cs" />
+    <Compile Include="SaldoInventoryT1.cs" />
+    <Compile Include="SaldoSupplier.cs" />
+    <Compile Include="Salesman.cs" />
+    <Compile Include="SarMutParameterTerukur.cs" />
+    <Compile Include="SarMutPencapaianNilai.cs" />
+    <Compile Include="SarmutPes.cs" />
+    <Compile Include="sarmut\RMM.cs" />
+    <Compile Include="sarmut\RMM_Departemen.cs" />
+    <Compile Include="sarmut\RMM_Dept.cs" />
+    <Compile Include="sarmut\RMM_Detail.cs" />
+    <Compile Include="sarmut\RMM_Lampiran.cs" />
+    <Compile Include="sarmut\RMM_Loc.cs" />
+    <Compile Include="sarmut\RMM_Perusahaan.cs" />
+    <Compile Include="sarmut\SarMut.cs" />
+    <Compile Include="sarmut\SarMut_Departemen.cs" />
+    <Compile Include="sarmut\SarMut_Dept.cs" />
+    <Compile Include="sarmut\SarMut_Lampiran.cs" />
+    <Compile Include="sarmut\SarMut_Penyebab_Detail.cs" />
+    <Compile Include="sarmut\SarMut_Perusahaan.cs" />
+    <Compile Include="sarmut\SarMut_P_Departemen.cs" />
+    <Compile Include="sarmut\SarMut_Tindakan.cs" />
+    <Compile Include="Schedule.cs" />
+    <Compile Include="ScheduleDetail.cs" />
+    <Compile Include="ScheduleOP.cs" />
+    <Compile Include="ScheduleTO.cs" />
+    <Compile Include="Scrub.cs" />
+    <Compile Include="SerahTerimaAssetNf.cs" />
+    <Compile Include="SerahTerimaNf.cs" />
+    <Compile Include="SettingNumber.cs" />
+    <Compile Include="Sisi.cs" />
+    <Compile Include="SJNumber.cs" />
+    <Compile Include="SM_Kendaraan.cs" />
+    <Compile Include="SM_LoadingTime.cs" />
+    <Compile Include="SM_LoadingTimeDetail.cs" />
+    <Compile Include="SPKP_Desc.cs" />
+    <Compile Include="SPKP_Dtl.cs" />
+    <Compile Include="SPKP_Master.cs" />
+    <Compile Include="SPKP_Sch.cs" />
+    <Compile Include="SPP.cs" />
+    <Compile Include="SPPDetail.cs" />
+    <Compile Include="SPPMultigudang.cs" />
+    <Compile Include="SPPNumber.cs" />
+    <Compile Include="SPPPantau.cs" />
+    <Compile Include="SPPPrivate.cs" />
+    <Compile Include="StockMovement.cs" />
+    <Compile Include="Stoker.cs" />
+    <Compile Include="SubDistributor.cs" />
+    <Compile Include="Supplier.cs" />
+    <Compile Include="SuppPurch.cs" />
+    <Compile Include="SuratJalan.cs" />
+    <Compile Include="SuratJalanDetail.cs" />
+    <Compile Include="SuratJalanDetailTO.cs" />
+    <Compile Include="SuratJalankeluar.cs" />
+    <Compile Include="SuratJalanTO.cs" />
+    <Compile Include="TabelConversi.cs" />
+    <Compile Include="Task.cs" />
+    <Compile Include="Tawar.cs" />
+    <Compile Include="TawarDetail.cs" />
+    <Compile Include="TerminBayar.cs" />
+    <Compile Include="TermOfPay.cs" />
+    <Compile Include="Toko.cs" />
+    <Compile Include="TokoAsuh.cs" />
+    <Compile Include="TokoAsuhResult.cs" />
+    <Compile Include="TotalSaldoUkuran.cs" />
+    <Compile Include="TransDoc.cs" />
+    <Compile Include="TransDocNo.cs" />
+    <Compile Include="TransferDetail.cs" />
+    <Compile Include="TransferOrder.cs" />
+    <Compile Include="UangMuka.cs" />
+    <Compile Include="UOM.cs" />
+    <Compile Include="UserLogin.cs" />
+    <Compile Include="UserPesNf.cs" />
+    <Compile Include="UserRoles.cs" />
+    <Compile Include="Users.cs" />
+    <Compile Include="UsersHead.cs" />
+    <Compile Include="WIPDomain.cs" />
+    <Compile Include="WorkOrder.cs" />
+    <Compile Include="WorkOrder_New.cs" />
+    <Compile Include="Zona.cs" />
+    <Compile Include="ZonaArea.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{7730aae9-dfa6-45a7-afaa-11ce21a42b5a}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="defect\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,827 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BasicFrame.WebControls.BasicDatePicker</name>
+    </assembly>
+    <members>
+        <member name="T:BasicFrame.WebControls.BasicDatePicker">
+            <summary>
+            Basic Date Picker is a professional cross-browser ASP.NET calendar web control. A quick loading JavaScript calendar enables rapid, error free, date selection without the use of pop-up windows or PostBacks. Save development time and optimize user experience with this highly flexible, customizable control.
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.BasicDatePicker.#ctor">
+            <summary>
+            Creates a new instance of the BasicDatePicker class.
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.BasicDatePicker.OnInit(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:BasicFrame.WebControls.BasicDatePicker.CreateChildControls">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.BasicDatePicker.SetChildProperties">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.BasicDatePicker.RenderBeginTag(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="M:BasicFrame.WebControls.BasicDatePicker.Page_PreRenderComplete(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BasicFrame.WebControls.BasicDatePicker.AddAttributesToRender(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="M:BasicFrame.WebControls.BasicDatePicker.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="M:BasicFrame.WebControls.BasicDatePicker.Clear">
+            <summary>
+            Clears the TextBox value and sets the SelectedDate to the NullDate property. Default NullDate value is DateTime.MinValue.
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.BasicDatePicker.OnSelectionChanged(System.EventArgs)">
+            <summary>
+            Raises the SelectionChanged event of the Date Picker control and allows you to provide a custom handler for the SelectionChanged event.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ShowCalendarOnLoad">
+            <summary>
+            Gets or sets a value indicating whether the Calendar is displayed with the Page loads. If true, the Calendar will be open when the Page loads, otherwise it will be closed. Default value is false (closed).
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.Enabled">
+            <summary>
+            Gets or sets a value indicating whether the control is enabled. if Enabled = false, TextBox readonly attribute will be set to readonly and Image Button will be set to Disabled.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.AutoPostBack">
+            <summary>
+            Automatically postback to the server after the date is modified.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.SelectableWeekDays">
+            <summary>
+            Allow selection of WeekDays.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.SelectableWeekendDays">
+            <summary>
+            Allow selection of WeekEndDays.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.SelectablePrevMonthDays">
+            <summary>
+            Allow selection of Previous Month Days which are displayed before the first day of the current visible month.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.SelectableNextMonthDays">
+            <summary>
+            Allow selection of Next Month Days which are displayed after the last day of the current visible month.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.MaximumDate">
+            <summary>
+            Gets or sets the date that specifies the maximum allowable selectable date.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.MinimumDate">
+            <summary>
+            Gets or sets the date that specifies the minimum allowable selectable date.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ClientTarget">
+            <summary>
+            Determines how BasicDatePicker should render to various browsers.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:BasicFrame.WebControls.BasicDatePicker.TextBoxMaxLength" -->
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.OpenCalendarOnTextBoxFocus">
+            <summary>
+            The OpenCalendarOnTextBoxFocus property has been renamed to ShowCalendarOnTextBoxFocus. Please use the new ShowCalendarOnTextBoxFocus property.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ShowCalendarOnTextBoxFocus">
+            <summary>
+            If focus is placed on TextBox, then show the calendar.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.MonthSelectorEnabled">
+            <summary>
+            Gets or sets a value indicating whether the month selector is enabled.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.YearSelectorEnabled">
+            <summary>
+            Gets or sets a value indicating whether the year selector is enabled.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.TitleFormat">
+            <summary>
+            Gets or sets the format of the Title bar in the Calendar. Default value is "MMMM yyyy".
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ButtonPosition">
+            <summary>
+            Set or Get the position of the button relative to the TextBox.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.Rows">
+            <summary>
+            Gets or sets the number of rows of calendars displayed when opened.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.Columns">
+            <summary>
+            Gets or sets the number of columns of calendars displayed when opened.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.DayStatusBarText">
+            <summary>
+            Gets or sets the value that will be display in the bottom status bar of the web browser.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.CssClass">
+            <summary>
+            Gets or sets CSS class applied to the &lt;span&gt; tag that wraps the control.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.TextBoxColumns">
+            <summary>
+            Gets or sets the value of the 'size' attribute of the TextBox.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.NullDateText">
+            <summary>
+            Gets or sets the text displayed when NullDate(DateTime.MinValue) is supplied. Value can be applied to TextBox, Label, HyperLink and Button.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.XOffset">
+            <summary>
+            Gets or sets the X offset of the calendar from the bottom-right of the launching element (Button, Image, HyperLink, Label or TextBox). Can be negative value.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.YOffset">
+            <summary>
+            Gets or sets the Y offset of the calendar from the bottom-right of the launching element (Button, Image, HyperLink, Label or TextBox). Can be negative value.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ResourcePath">
+            <summary>
+            Gets or sets prefix of the Url path for each required resource. The required resources include BasicDatePicker.js, BasicDatePicker.css, button.gif, arrow_left.gif and arrow_right.gif. These files are intially located in the aspnet_client directory.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.NextMonthImageFileName">
+            <summary>
+            Gets or sets the file name path to the NextMonth image (ie. arrows).
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.PrevMonthImageFileName">
+            <summary>
+            Gets or sets the file name path to the PrevMonth image (ie. arrows).
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.NextPrevMonthImageWidth">
+            <summary>
+            The NextPrevMonthImageWidth property is Obsolete. Please set the values with a StyleSheet.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.NextPrevMonthImageHeight">
+            <summary>
+            The NextPrevMonthImageHeight property is Obsolete. Please set the values with a StyleSheet.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ButtonImageWidth">
+            <summary>
+            Gets or sets the width of the Image button.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ButtonImageHeight">
+            <summary>
+            Gets or sets the height of the Image button.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.NextMonthText">
+            <summary>
+            Gets or sets the text to be used for navigating to the next month. NextPrevFormat must be set to NextPrevFormat. CustomText for this custom text to be rendered.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.PrevMonthText">
+            <summary>
+            Gets or sets the text to be used for navigating to the previous month. NextPrevFormat must be set to NextPrevFormat.CustomText for this custom text to be rendered.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ShowWeekNumbers">
+            <summary>
+            Gets or sets a value indicating whether the week numbers are displayed.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ShowDaysInNextMonth">
+            <summary>
+            Shows or hides the days in the next month that fill the cells at the end of the current month.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ShowDaysInPrevMonth">
+            <summary>
+            Shows or hides the days in the previous month that fill the cells at the start of the current month.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ShowTodayButton">
+            <summary>
+            Gets or sets a value indicating whether show the 'Today' button.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.TodayButtonText">
+            <summary>
+            Gets or sets the 'Today' button text.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ShowNoneButton">
+            <summary>
+            Show or hides the 'None' button which is displayed at the bottom of th calendar.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.NoneButtonText">
+            <summary>
+            Gets or sets the 'None' button text.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.FootNoteText">
+            <summary>
+            Gets or sets the foot note text. Can contain HTML.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ForceSixRows">
+            <summary>
+            Gets or sets a value indicating whether to force calendar to display 6 rows.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.FirstDayOfWeek">
+            <summary>
+            Gets or sets the day of the week to display in the first day column of the BasicDatePicker control.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.DateFormat">
+            <summary>
+            Gets or sets the date format. Uses .NET DateTime format specifiers (d = day, M = Month, y = Year).
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.DayNameFormat">
+            <summary>
+            Gets or sets the format of how the Day labels will be displayed. Options include (Enum): DayNameFormat.Full, .Short, .FirstLetter or .FirstTwoLetters
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.DisplayType">
+            <summary>
+            Gets or sets how the combination of controls will be displayed.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.DatePickerDisplayType">
+            <summary>
+            The DatePickerDisplayType property is Obsolete. Please use the DisplayType property.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.CustomDateFormat">
+            <summary>
+            The CustomDateFormat property is Obsolete. Please use the DateFormat property.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.TextBoxReadOnly">
+            <summary>
+            The TextBoxReadOnly property is Obsolete. Please use the ReadOnly property.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ReadOnly">
+            <summary>
+            Gets or sets a value indicating whether DatePicker is readonly. Does not allow editing within TextBox.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ButtonText">
+            <summary>
+            Gets or sets the Button text.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ButtonImageFileName">
+            <summary>
+            Gets or sets the image button file name.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.NextPrevFormat">
+            <summary>
+            Gets or sets the NextPrev (ie. arrows) format.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ShowDayHeader">
+            <summary>
+            Shows or hides the section that displays the days of the week.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ShowNextPrevMonth">
+            <summary>
+            Show or hides the next and previous month navigation elements in the title section.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ShowTitle">
+            <summary>
+            Shows or hides the title section. Includes both month name and Next/Prev navigation.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.UpYearSelectorImageFileName">
+            <summary>
+            Gets or sets the Up Year Selector image file name.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.DownYearSelectorImageFileName">
+            <summary>
+            Gets or sets the Down Year Selector image file name.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.UpDownYearSelectorImageWidth">
+            <summary>
+            The UpDownYearSelectorImageWidth property is Obsolete. Please set the width with a Stylesheet
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.UpDownYearSelectorImageHeight">
+            <summary>
+            The UpDownYearSelectorImageHeight property is Obsolete. Please set the width with a Stylesheet
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.UpYearSelectorText">
+            <summary>
+            Gets or sets the up year selector text if UpDownYearSelectorFormat is set to CustomText.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.DownYearSelectorText">
+            <summary>
+            Gets or sets the down year selector text UpDownYearSelectorFormat is set to CustomText.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.UpDownYearSelectorFormat">
+            <summary>
+            Gets or sets the up down year selector format.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.MonthSelectorXOffset">
+            <summary>
+            Gets or sets the month selectors x-offset.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.MonthSelectorYOffset">
+            <summary>
+            Gets or sets the month selector's y-offset.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.YearSelectorXOffset">
+            <summary>
+            Gets or sets the year selector's x-offset.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.YearSelectorYOffset">
+            <summary>
+            Gets or sets the year selector's y-offset.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.SelectedDate">
+            <summary>
+            Gets or sets the current selected date of the calendar. Accepts and returns a DateTime object.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.SelectedValue">
+            <summary>
+            Gets or Sets the SelectedDate property by accepting any Object and will return null if IsNull = true. Best used when Data Binding to a DataBase when a null or System.DBNull value may be returned.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.NullDate">
+            <summary>
+            Gets or Sets the DateTime value which is used as a Null/Nothing value. The default Null value is DateTime.MinValue, but can be overridden with a custom Null value. For example, DateTime.MaxValue.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.JavaScriptFileName">
+            <summary>
+            Gets or sets the JavaScript file name. If empty, JavaScript will be output inline by the control.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.StyleSheetFileName">
+            <summary>
+            Gets or sets the StyleSheet file name. If empty, CSS will be output inline by the control.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.VisibleDate">
+            <summary>
+            The month to be displayed when calendar is opened if the SelectedDate is not set(DateTime.MinValue). Moves calendar to Month/Year of Date value supplied.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.LicenseKey">
+            <summary>
+            The LicenseKey property is Obsolete. Please add the license key by setting the Application[&quot;BasicDatePicker.LicenseKey&quot;] variable in the Application_Start Event of your projects Global.asax file or set the &quot;BasicDatePicker.LicenseKey&quot; value within the your projects Web.config file. Example: Application [&quot;BasicDatePicker.LicenseKey&quot;] = &quot;*** ADD KEY HERE ***&quot;  or  &lt;add key=&quot;BasicDatePicker.LicenseKey&quot; value=&quot;*** ADD KEY HERE ***&quot;/>. Please visit http://www.basicdatepicker.com to purchase a license key.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.SpecialDatesID">
+            <summary>
+            Gets or sets the ControlId of the SpecialDates object.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.SpecialDates">
+            <summary>
+            The SpecialDates property is Obsolete. Please use the SpecialDatesID property.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.TimePickerID">
+            <summary>
+            Gets or sets the ID of the TimePicker which is linked to this instance of the Date Picker.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.TimePicker">
+            <summary>
+            The TimePicker property is Obsolete. Please use the TimePickerID property.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.Text">
+            <summary>
+            Gets the exact string value entered by user into the TextBox. Use the SelectedDate or SelectedValue properties to Set/Get the Date value of the date picker.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.PostedText">
+            <summary>
+            The Text property is Obsolete. Please use the Text property.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.CurrentCulture">
+            <summary>
+            Gets the current CultureInfo.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.SelectedDateTimeFormatted">
+            <summary>
+            Gets the formatted SelectedDate as string based on either the DateFormat or DateFormat.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.IsNull">
+            <summary>
+            Gets a value indicating whether the SelectedDate is [Null]. There is no DateTime Null value in .NET, so DateTime.MinValue is returned to represent [Null].
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.IsDate">
+            <summary>
+            Gets a value indicating whether the posted text can be parsed into a valid DateTime object. If the text value can not be parsed into a DateTime object based on the DateFormat, then false is returned.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.ValidDateEntered">
+            <summary>
+            The ValidDateEntered property is Obsolete. Please use the IsDate property.
+            </summary>
+        </member>
+        <member name="E:BasicFrame.WebControls.BasicDatePicker.SelectionChanged">
+            <summary>
+            Raised when the user selects a new date.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.OnClientCalculateWeekNumber">
+            <summary>
+            Custom JavaScript function which is fired when the week number is calculated. Allows for a custom getWeekNumber algorithm.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.OnClientDayRender">
+            <summary>
+            Custom JavaScript function which is fired when each day is created.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.OnClientPreParse">
+            <summary>
+            Custom JavaScript function which is fired just before client-side date parsing is performed.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.OnClientBeforeCalendarOpen">
+            <summary>
+            Custom JavaScript function which is fired just before calendar is opened.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.OnClientBeforeCalendarClose">
+            <summary>
+            Custom JavaScript function which is fired just before calendar is closed.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.OnClientAfterCalendarOpen">
+            <summary>
+            Custom JavaScript function which is fired just after calendaris opened.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.OnClientBeforeSelectionChanged">
+            <summary>
+            Custom JavaScript function which is fired just before internal client-side SelectionChanged Event is fired.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.OnClientAfterSelectionChanged">
+            <summary>
+            Custom JavaScript function which is fired just after internal client-side SelectionChanged Event is fired.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.OnClientBeforeVisibleMonthChanged">
+            <summary>
+            Custom JavaScript function which is fired just before internal client-side MonthChanged Event is fired.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BasicDatePicker.OnClientAfterVisibleMonthChanged">
+            <summary>
+            Custom JavaScript function which is fired just after internal client-side MonthChanged Event is fired.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.BDPLite.Enabled">
+            <summary>
+            Gets or sets a value indicating whether BDPLite is enabled. if Enabled = false, TextBox readonly attribute will be set to readonly and Image Button will be set to Disabled.
+            </summary>
+        </member>
+        <member name="T:BasicFrame.WebControls.TimePicker">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.OnInit(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.CreateChildControls">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.RenderBeginTag(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.Page_PreRenderComplete(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.AddAttributesToRender(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.RegisterScripts">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.GetDefaultValue(System.Reflection.PropertyInfo)">
+            <summary>
+            
+            </summary>
+            <param name="property"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.Clear">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.OnSelectionChanged(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.System#Web#UI#IPostBackDataHandler#RaisePostDataChangedEvent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.RaisePostDataChangedEvent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.System#Web#UI#IPostBackDataHandler#LoadPostData(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            
+            </summary>
+            <param name="postDataKey"></param>
+            <param name="postCollection"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.LoadPostData(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            
+            </summary>
+            <param name="postDataKey"></param>
+            <param name="postCollection"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicFrame.WebControls.TimePicker.ValidateLicenseKey">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.ResourcePath">
+            <summary>
+            Gets or sets prefix of the Url path for each required resource. These files are intially located in the aspnet_client directory.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.JavaScriptFileName">
+            <summary>
+            Gets or sets the name of the required TimePicker JavaScript file.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.TimeLibraryFileName">
+            <summary>
+            Gets or sets the name of the required Datejs Time JavaScript file.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.RenderJavaScript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.LicenseKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.ReadOnly">
+            <summary>
+            Gets or sets a value indicating whether TextBox is readonly. ReadOnly does not apply to DropDownList controls.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.SelectedTime">
+            <summary>
+            Gets or sets the selected time of the TimePicker. Accepts and Returns a TimeSpan object.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.MinimumTime">
+            <summary>
+            Gets or sets the minimum time of the TimePicker. Accepts and Returns a TimeSpan object. Only applies when DisplayType is SingleDropDownList.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.MaximumTime">
+            <summary>
+            Gets or sets the maximum time of the TimePicker. Accepts and Returns a TimeSpan object. Only applies when DisplayType is SingleDropDownList.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.SelectedValue">
+            <summary>
+            Gets or Sets the SelectedTime property by accepting any Object and will return null if IsNull = true. Best used when Data Binding to a DataBase when a null or System.DBNull value may be returned.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.SelectedTimeFormatted">
+            <summary>
+            Gets the formatted SelectedTime as string based on the TimeFormat.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.Nullable">
+            <summary>
+            Determines whether TimePicker can accept/return a null value. If false and the DisplayType is SingleDropDownList or MultipleDropDownList, no blank row will be created. Default value is true.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.AutoPostBack">
+            <summary>
+            Automatically postback to the server after the date is modified.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.DisplayType">
+            <summary>
+            Gets or sets how the combination of controls will be displayed.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.TimeFormat">
+            <summary>
+            Gets or sets the time format. Uses .NET DateTime format specifiers. t = ShortTime, T = LongTime
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.HourIncrement">
+            <summary>
+            Gets or sets the increment of the Hours.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.MinuteIncrement">
+            <summary>
+            Gets or sets the increment of the Minutes.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.SecondIncrement">
+            <summary>
+            Gets or sets the increment of the Seconds.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.NullTimeText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.IsTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.Items">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.ExpandedTimeFormat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.ChildControlStructureChanged">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.IsNull">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.OnClientSelectionChanged">
+            <summary>
+            Name of the custom JavaScript event handler which is executed after the SelectedTime is changed.
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.InputStyle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.HourStyle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.MinuteStyle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.SecondStyle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.DesignatorStyle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.FormatInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BasicFrame.WebControls.TimePicker.ClientInitializationScript">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:BasicFrame.WebControls.TimePicker.SelectionChanged">
+            <summary>
+            Raised when the user selects a new date.
+            </summary>
+        </member>
+        <member name="T:BasicFrame.WebControls.SpecialDatesDesigner">
+            <summary>
+            Summary description for SpecialDatesDesigner.
+            </summary>
+        </member>
+    </members>
+</doc>

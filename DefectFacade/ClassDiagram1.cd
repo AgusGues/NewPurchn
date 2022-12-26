@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DefectFacade.DefectDetailFacade" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAAAAAAAAAAAACAAAAAAEAAQAAAAACAAAAAAA=</HashCode>
+      <FileName>DefectDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefectFacade.DefectFacades" Collapsed="true">
+    <Position X="23" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAAAAAAAEAAAAABAAAAEEAAQAAAAAAAAgAAAQ=</HashCode>
+      <FileName>DefectFacades.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefectFacade.DefectProcessFacade" Collapsed="true">
+    <Position X="24.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAEAAIACAAAAAAEAAAQAAAAAAACQAAA=</HashCode>
+      <FileName>DefectProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefectFacade.MasterDefectFacade" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEMAAAAACAAAAAAAACAAAAEAAQIACAAgAAAAAAA=</HashCode>
+      <FileName>MasterDefectFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefectFacade.MasterGroupCutterFacade" Collapsed="true">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEMAAAAACAAAABAAAABAAAEAAQAACAAAAAAAAAA=</HashCode>
+      <FileName>MasterGroupCutterFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefectFacade.MasterGroupJemurFacade" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQEAEMAAAAACAAAAAAAAAAAAAEAAQAACAAAABAAAAA=</HashCode>
+      <FileName>MasterGroupJemurFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefectFacade.MasterJenisProductFacade" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEMAAAAACAAAAAAQAAAAAAEAAQAACAAAAAAAAAA=</HashCode>
+      <FileName>MasterJenisProductFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefectFacade.MasterPlanFacade" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEMAAAAACQAAAAAAAAAAAAEAAQAACAAAAAAAAEA=</HashCode>
+      <FileName>MasterPlanFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefectFacade.MasterProdukFacade" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEMAAAAACAAIAAAAAAAAAAEAIQAACAAAAAAAAAA=</HashCode>
+      <FileName>MasterProdukFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefectFacade.MasterUkuranFacade" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYAAEIAAAAACAAAAAAAAAAAAAECAQAACAAAAAAAAAA=</HashCode>
+      <FileName>MasterUkuranFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessFacade.AbstractFacade" Collapsed="true">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AbstractTransactionFacade" Collapsed="true">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AbstractTransactionFacadeF" Collapsed="true">
+    <Position X="8.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.KartuStockFacade" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.BM_DestackingFacade" Collapsed="true">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.BM_PaletFacade" Collapsed="true">
+    <Position X="1" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.Class1" Collapsed="true">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.FC_ItemsFacade" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.FC_LokasiFacade" Collapsed="true">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.FC_RakFacade" Collapsed="true">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.FormulaFacade" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.ReportFacadeT1T3" Collapsed="true">
+    <Position X="23" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T1_AdjustDetailFacade" Collapsed="true">
+    <Position X="9.5" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T1_AdjustFacade" Collapsed="true">
+    <Position X="16.25" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T1_AdjustProcessFacade" Collapsed="true">
+    <Position X="24.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T1_JemurFacade" Collapsed="true">
+    <Position X="9.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T1_JemurLgFacade" Collapsed="true">
+    <Position X="15.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T1_SaldoPerLokasiFacade" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T1_SerahFacade" Collapsed="true">
+    <Position X="7.25" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T1_SerahProcessFacade" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_AdjustFacade" Collapsed="true">
+    <Position X="18.5" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_AdjustProcessFacade" Collapsed="true">
+    <Position X="21.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_AdjustDetailFacade" Collapsed="true">
+    <Position X="11.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_AsimetrisFacade" Collapsed="true">
+    <Position X="13.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_AsimetrisProcessFacade" Collapsed="true">
+    <Position X="23" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_BiayaFacade" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_GroupsFacade" Collapsed="true">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_KirimDetailFacade" Collapsed="true">
+    <Position X="0.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_KirimFacade" Collapsed="true">
+    <Position X="5" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_KirimProcessFacade" Collapsed="true">
+    <Position X="24.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_MutasiLokFacade" Collapsed="true">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_MutasiLokProcessFacade" Collapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_MutasiWIPFacade" Collapsed="true">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_RekapFacade" Collapsed="true">
+    <Position X="11.75" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_ReturFacade" Collapsed="true">
+    <Position X="2.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_ReturMasterFacade" Collapsed="true">
+    <Position X="7.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_ReturProcessFacade" Collapsed="true">
+    <Position X="21.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_SerahFacade" Collapsed="true">
+    <Position X="2.75" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_SiapKirimFacade" Collapsed="true">
+    <Position X="5" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_SiapKirimProcessFacade" Collapsed="true">
+    <Position X="23" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_SimetrisFacade" Collapsed="true">
+    <Position X="14" Y="10" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_SimetrisProcessFacade" Collapsed="true">
+    <Position X="24.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_SJ_CMDetailFacade" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_SJ_CMFacade" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_SJ_ExDetailFacade" Collapsed="true">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_SJ_ExFacade" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.T3_SJDetailFacade" Collapsed="true">
+    <Position X="14.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Factory.TerimaProcessFacade" Collapsed="true">
+    <Position X="26.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

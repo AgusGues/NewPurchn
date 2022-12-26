@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E3A711E-12EB-40AF-8637-CAB28305425C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Factory</RootNamespace>
+    <AssemblyName>Factory</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.60.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.60.6\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractTransactionFacadeF.cs" />
+    <Compile Include="BM_DestackingFacade.cs" />
+    <Compile Include="BM_PaletFacade.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataSets\dsPO.cs">
+      <DependentUpon>dsPO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsPO.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsUsers.cs">
+      <DependentUpon>dsUsers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dsUsers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUsers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DefectDetailFacade.cs" />
+    <Compile Include="DefectFacades.cs" />
+    <Compile Include="DefectLDetailFacade.cs" />
+    <Compile Include="DefectProcessFacade.cs" />
+    <Compile Include="FC_ItemFacade.cs" />
+    <Compile Include="FC_ItemsFacade.cs" />
+    <Compile Include="FC_ItemsNFFacade.cs" />
+    <Compile Include="FC_LokasiFacade.cs" />
+    <Compile Include="FC_RakFacade.cs" />
+    <Compile Include="FormulaFacade.cs" />
+    <Compile Include="KartuStockFacade.cs" />
+    <Compile Include="MasterDefectFacade.cs" />
+    <Compile Include="MasterGroupCutterFacade.cs" />
+    <Compile Include="MasterGroupJemurFacade.cs" />
+    <Compile Include="MasterJenisProductFacade.cs" />
+    <Compile Include="MasterPlanFacade.cs" />
+    <Compile Include="MasterProdukFacade.cs" />
+    <Compile Include="MasterUkuranFacade.cs" />
+    <Compile Include="ReportFacadeT1T3.cs" />
+    <Compile Include="RMMDetailFacade.cs" />
+    <Compile Include="RMMFacade.cs" />
+    <Compile Include="RMMProcessFacade.cs" />
+    <Compile Include="RMMProsesFacade.cs" />
+    <Compile Include="RMM_DepartemenFacade.cs" />
+    <Compile Include="RMM_DeptFacade.cs" />
+    <Compile Include="RMM_LampiranFacade.cs" />
+    <Compile Include="RMM_LocFacade.cs" />
+    <Compile Include="RMM_PerusahaanFacade.cs" />
+    <Compile Include="SaldoInventoryBJFacade.cs" />
+    <Compile Include="SaldoInventoryBJProcessFacade.cs" />
+    <Compile Include="SaldoInventoryT1Facade.cs" />
+    <Compile Include="SaldoInventoryT1ProcessFacade.cs" />
+    <Compile Include="T1_AdjustFacade.cs" />
+    <Compile Include="T1_AdjustlistplankDetailFacade.cs" />
+    <Compile Include="T1_adjustListplankFacade.cs" />
+    <Compile Include="T1_AdjustListplankProcessFacade.cs" />
+    <Compile Include="T1_BevelFacade.cs" />
+    <Compile Include="T1_JemurFacade.cs" />
+    <Compile Include="T1_JemurLgFacade.cs" />
+    <Compile Include="T1_ListPlankFacade.cs" />
+    <Compile Include="T1_LR1_BevelFacade.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="T1_LR1_ListPlankFacade.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="T1_LR1_RuningSawFacade.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="T1_LR1_Straping.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="T1_LR2_BevelFacade.cs" />
+    <Compile Include="T1_LR2_ListPlankFacade.cs" />
+    <Compile Include="T1_LR2_RuningSawFacade.cs" />
+    <Compile Include="T1_LR2_Straping.cs" />
+    <Compile Include="T1_LR3_BevelFacade.cs" />
+    <Compile Include="T1_LR3_ListPlankFacade.cs" />
+    <Compile Include="T1_LR3_RuningSawFacade.cs" />
+    <Compile Include="T1_LR3_StrapingFacade.cs" />
+    <Compile Include="T1_PaletPelarianFacade.cs" />
+    <Compile Include="T1_PrintFacade.cs" />
+    <Compile Include="T1_RuningSawFacade.cs" />
+    <Compile Include="T1_SaldoPerLokasiFacade.cs" />
+    <Compile Include="T1_SerahFacade.cs" />
+    <Compile Include="T1_SerahProcessFacade.cs" />
+    <Compile Include="T1_StrapingFacade.cs" />
+    <Compile Include="T3_AdjustFacade.cs" />
+    <Compile Include="T3_AdjustProcessFacade.cs" />
+    <Compile Include="T3_AdjutDetailFacade.cs" />
+    <Compile Include="T3_AsimetrisAutoProcessFacade.cs" />
+    <Compile Include="T3_AsimetrisFacade.cs" />
+    <Compile Include="T3_AsimetrisProcessFacade.cs" />
+    <Compile Include="T3_BADetailFacade.cs" />
+    <Compile Include="T3_BAFacade.cs" />
+    <Compile Include="T3_BAProcessFacade.cs" />
+    <Compile Include="T3_BiayaFacade.cs" />
+    <Compile Include="T3_GroupsFacade.cs" />
+    <Compile Include="T3_KirimDetailFacade.cs" />
+    <Compile Include="t3_KirimFacade.cs" />
+    <Compile Include="T3_KirimProcessFacade.cs" />
+    <Compile Include="T3_MutasiLokFacade.cs" />
+    <Compile Include="T3_MutasiLokProcessFacade.cs" />
+    <Compile Include="T3_MutasiWIPFacade.cs" />
+    <Compile Include="T3_RekapFacade.cs" />
+    <Compile Include="T3_ReturFacade.cs" />
+    <Compile Include="T3_ReturMasterFacade.cs" />
+    <Compile Include="T3_ReturProcessFacade.cs" />
+    <Compile Include="T3_SerahFacade.cs" />
+    <Compile Include="T3_SiapKirimFacade.cs" />
+    <Compile Include="T3_SiapKirimProcessFacade.cs" />
+    <Compile Include="T3_SimetrisAutoProcessFacade.cs" />
+    <Compile Include="T3_SimetrisFacade.cs" />
+    <Compile Include="T3_SimetrisProcessFacade.cs" />
+    <Compile Include="T3_SJDetailFacade.cs" />
+    <Compile Include="T3_SJ_CMDetailFacade.cs" />
+    <Compile Include="T3_SJ_CMFacade.cs" />
+    <Compile Include="T3_SJ_ExDetailFacade.cs" />
+    <Compile Include="T3_SJ_ExFacade.cs" />
+    <Compile Include="T3_SupplyFacade.cs" />
+    <Compile Include="TerimaProcessFacade.cs" />
+    <Compile Include="TPP_Asal_MasalahFacade.cs" />
+    <Compile Include="TPP_DeptFacade.cs" />
+    <Compile Include="TPP_Facade.cs" />
+    <Compile Include="TPP_Klausul_NoFacade.cs" />
+    <Compile Include="TPP_LampiranFacade.cs" />
+    <Compile Include="TPP_Penyebab_Detail_Facade.cs" />
+    <Compile Include="TPP_ProcessFacade.cs" />
+    <Compile Include="TPP_TindakanFacade.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessFacade\BusinessFacade.csproj">
+      <Project>{4e645a81-518f-441b-9cae-030dcc8ac7f1}</Project>
+      <Name>BusinessFacade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cogs\Cogs.csproj">
+      <Project>{4355e33b-9822-4548-a27f-0d1b297adb31}</Project>
+      <Name>Cogs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{D3B50FB1-3F0B-45E0-956B-13146C111AE6}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{eb796d78-324c-47cd-a816-e6f7e4951987}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram3.cd" />
+    <None Include="DataSets\dsPO.xsc">
+      <DependentUpon>dsPO.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsPO.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPO.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsPO.xss">
+      <DependentUpon>dsPO.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsUsers.xsc">
+      <DependentUpon>dsUsers.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dsUsers.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUsers.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\dsUsers.xss">
+      <DependentUpon>dsUsers.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

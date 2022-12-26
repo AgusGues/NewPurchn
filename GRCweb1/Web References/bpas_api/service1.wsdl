@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetNokendaraan">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetNokendaraanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNokendaraanResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNoPolByPlant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Plant" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNoPolByPlantResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNoPolByPlantResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DetailKendaraan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NoPol" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DetailKendaraanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DetailKendaraanResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAliasKendaraan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NoPol" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCon" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAliasKendaraanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAliasKendaraanResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSJ">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="txtSJ" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCon" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Plant" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tahun" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSJResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSJResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSJDepo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="txtSJ" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCon" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tahun" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSJDepoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSJDepoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSchedule">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Tabel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Criteria" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCon" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetScheduleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetScheduleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHargaTerendah">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ItemID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ItemTypeID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCon" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHargaTerendahResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetHargaTerendahResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataFromTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Tabel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Criteria" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCon" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataFromTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataFromTableResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Tabel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Field" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Criteria" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCon" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataTableResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateLapak">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Criteria" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Conn" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateLapakResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateLapakResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateKiriman">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReceiptID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Jumlah" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlantID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateKirimanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateKirimanResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertSMS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LapakID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Jumlah" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ket" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertSMSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertSMSResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateNoSJ">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AgenID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateNoSJResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateNoSJResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertKirimKeBPAS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Tanggal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlatNomor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoSJ" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Jumlah" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="AgenID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReceiptID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlantID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Createdby" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertKirimKeBPASResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertKirimKeBPASResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertKirimKeBPASFromPO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Tanggal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlatNomor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoSJ" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Jumlah" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="AgenID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReceiptID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlantID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Createdby" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertKirimKeBPASFromPOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertKirimKeBPASFromPOResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertDeliveryKertasDepo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KoneksiData" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertDeliveryKertasDepoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertDeliveryKertasDepoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDeliveryKertasDepo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDeliveryKertasDepoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateDeliveryKertasDepoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDeliveryKertasDepoPlant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDeliveryKertasDepoPlantResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateDeliveryKertasDepoPlantResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDeliveryKertasKAPlant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objDO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDeliveryKertasKAPlantResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateDeliveryKertasKAPlantResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TaskMonitoring">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectioName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TaskMonitoringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TaskMonitoringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TaskMonitoringFilter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Criteria" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectioName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TaskMonitoringFilterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TaskMonitoringFilterResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TaskAutoClosing">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TaskAutoClosingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TaskAutoClosingResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SimpanKurs">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="matauang" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ConnectionName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SimpanKursResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SimpanKursResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataKirimanKertas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bulan" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tahun" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataKirimanKertasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataKirimanKertasResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataKirimanKertasFilterBy">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bulan" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tahun" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="plantid" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataKirimanKertasFilterByResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataKirimanKertasFilterByResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataKirimanByChecker">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bulan" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tahun" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataKirimanByCheckerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataKirimanByCheckerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataKirimanByDepo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bulan" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tahun" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataKirimanByDepoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataKirimanByDepoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataKirimanBySuppiler">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Bulan" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tahun" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataKirimanBySuppilerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DataKirimanBySuppilerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemsSJ">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetItemsSJResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetItemsSJResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetNokendaraanSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNokendaraan" />
+  </wsdl:message>
+  <wsdl:message name="GetNokendaraanSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNokendaraanResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNoPolByPlantSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNoPolByPlant" />
+  </wsdl:message>
+  <wsdl:message name="GetNoPolByPlantSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNoPolByPlantResponse" />
+  </wsdl:message>
+  <wsdl:message name="DetailKendaraanSoapIn">
+    <wsdl:part name="parameters" element="tns:DetailKendaraan" />
+  </wsdl:message>
+  <wsdl:message name="DetailKendaraanSoapOut">
+    <wsdl:part name="parameters" element="tns:DetailKendaraanResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAliasKendaraanSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAliasKendaraan" />
+  </wsdl:message>
+  <wsdl:message name="GetAliasKendaraanSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAliasKendaraanResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSJSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSJ" />
+  </wsdl:message>
+  <wsdl:message name="GetSJSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSJResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSJDepoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSJDepo" />
+  </wsdl:message>
+  <wsdl:message name="GetSJDepoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSJDepoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetScheduleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSchedule" />
+  </wsdl:message>
+  <wsdl:message name="GetScheduleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetScheduleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetHargaTerendahSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHargaTerendah" />
+  </wsdl:message>
+  <wsdl:message name="GetHargaTerendahSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHargaTerendahResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataFromTableSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataFromTable" />
+  </wsdl:message>
+  <wsdl:message name="GetDataFromTableSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataFromTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataTableSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetDataTableSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateLapakSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateLapak" />
+  </wsdl:message>
+  <wsdl:message name="UpdateLapakSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateLapakResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateKirimanSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateKiriman" />
+  </wsdl:message>
+  <wsdl:message name="UpdateKirimanSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateKirimanResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertSMSSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertSMS" />
+  </wsdl:message>
+  <wsdl:message name="InsertSMSSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertSMSResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateNoSJSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateNoSJ" />
+  </wsdl:message>
+  <wsdl:message name="UpdateNoSJSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateNoSJResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertKirimKeBPASSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertKirimKeBPAS" />
+  </wsdl:message>
+  <wsdl:message name="InsertKirimKeBPASSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertKirimKeBPASResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertKirimKeBPASFromPOSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertKirimKeBPASFromPO" />
+  </wsdl:message>
+  <wsdl:message name="InsertKirimKeBPASFromPOSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertKirimKeBPASFromPOResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertDeliveryKertasDepoSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertDeliveryKertasDepo" />
+  </wsdl:message>
+  <wsdl:message name="InsertDeliveryKertasDepoSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertDeliveryKertasDepoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDeliveryKertasDepoSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryKertasDepo" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDeliveryKertasDepoSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryKertasDepoResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDeliveryKertasDepoPlantSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryKertasDepoPlant" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDeliveryKertasDepoPlantSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryKertasDepoPlantResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDeliveryKertasKAPlantSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryKertasKAPlant" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDeliveryKertasKAPlantSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateDeliveryKertasKAPlantResponse" />
+  </wsdl:message>
+  <wsdl:message name="TaskMonitoringSoapIn">
+    <wsdl:part name="parameters" element="tns:TaskMonitoring" />
+  </wsdl:message>
+  <wsdl:message name="TaskMonitoringSoapOut">
+    <wsdl:part name="parameters" element="tns:TaskMonitoringResponse" />
+  </wsdl:message>
+  <wsdl:message name="TaskMonitoringFilterSoapIn">
+    <wsdl:part name="parameters" element="tns:TaskMonitoringFilter" />
+  </wsdl:message>
+  <wsdl:message name="TaskMonitoringFilterSoapOut">
+    <wsdl:part name="parameters" element="tns:TaskMonitoringFilterResponse" />
+  </wsdl:message>
+  <wsdl:message name="TaskAutoClosingSoapIn">
+    <wsdl:part name="parameters" element="tns:TaskAutoClosing" />
+  </wsdl:message>
+  <wsdl:message name="TaskAutoClosingSoapOut">
+    <wsdl:part name="parameters" element="tns:TaskAutoClosingResponse" />
+  </wsdl:message>
+  <wsdl:message name="SimpanKursSoapIn">
+    <wsdl:part name="parameters" element="tns:SimpanKurs" />
+  </wsdl:message>
+  <wsdl:message name="SimpanKursSoapOut">
+    <wsdl:part name="parameters" element="tns:SimpanKursResponse" />
+  </wsdl:message>
+  <wsdl:message name="DataKirimanKertasSoapIn">
+    <wsdl:part name="parameters" element="tns:DataKirimanKertas" />
+  </wsdl:message>
+  <wsdl:message name="DataKirimanKertasSoapOut">
+    <wsdl:part name="parameters" element="tns:DataKirimanKertasResponse" />
+  </wsdl:message>
+  <wsdl:message name="DataKirimanKertasFilterBySoapIn">
+    <wsdl:part name="parameters" element="tns:DataKirimanKertasFilterBy" />
+  </wsdl:message>
+  <wsdl:message name="DataKirimanKertasFilterBySoapOut">
+    <wsdl:part name="parameters" element="tns:DataKirimanKertasFilterByResponse" />
+  </wsdl:message>
+  <wsdl:message name="DataKirimanByCheckerSoapIn">
+    <wsdl:part name="parameters" element="tns:DataKirimanByChecker" />
+  </wsdl:message>
+  <wsdl:message name="DataKirimanByCheckerSoapOut">
+    <wsdl:part name="parameters" element="tns:DataKirimanByCheckerResponse" />
+  </wsdl:message>
+  <wsdl:message name="DataKirimanByDepoSoapIn">
+    <wsdl:part name="parameters" element="tns:DataKirimanByDepo" />
+  </wsdl:message>
+  <wsdl:message name="DataKirimanByDepoSoapOut">
+    <wsdl:part name="parameters" element="tns:DataKirimanByDepoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DataKirimanBySuppilerSoapIn">
+    <wsdl:part name="parameters" element="tns:DataKirimanBySuppiler" />
+  </wsdl:message>
+  <wsdl:message name="DataKirimanBySuppilerSoapOut">
+    <wsdl:part name="parameters" element="tns:DataKirimanBySuppilerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetItemsSJSoapIn">
+    <wsdl:part name="parameters" element="tns:GetItemsSJ" />
+  </wsdl:message>
+  <wsdl:message name="GetItemsSJSoapOut">
+    <wsdl:part name="parameters" element="tns:GetItemsSJResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="GetNokendaraan">
+      <wsdl:input message="tns:GetNokendaraanSoapIn" />
+      <wsdl:output message="tns:GetNokendaraanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNoPolByPlant">
+      <wsdl:input message="tns:GetNoPolByPlantSoapIn" />
+      <wsdl:output message="tns:GetNoPolByPlantSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DetailKendaraan">
+      <wsdl:input message="tns:DetailKendaraanSoapIn" />
+      <wsdl:output message="tns:DetailKendaraanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAliasKendaraan">
+      <wsdl:input message="tns:GetAliasKendaraanSoapIn" />
+      <wsdl:output message="tns:GetAliasKendaraanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSJ">
+      <wsdl:input message="tns:GetSJSoapIn" />
+      <wsdl:output message="tns:GetSJSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSJDepo">
+      <wsdl:input message="tns:GetSJDepoSoapIn" />
+      <wsdl:output message="tns:GetSJDepoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSchedule">
+      <wsdl:input message="tns:GetScheduleSoapIn" />
+      <wsdl:output message="tns:GetScheduleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHargaTerendah">
+      <wsdl:input message="tns:GetHargaTerendahSoapIn" />
+      <wsdl:output message="tns:GetHargaTerendahSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataFromTable">
+      <wsdl:input message="tns:GetDataFromTableSoapIn" />
+      <wsdl:output message="tns:GetDataFromTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTable">
+      <wsdl:input message="tns:GetDataTableSoapIn" />
+      <wsdl:output message="tns:GetDataTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLapak">
+      <wsdl:input message="tns:UpdateLapakSoapIn" />
+      <wsdl:output message="tns:UpdateLapakSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateKiriman">
+      <wsdl:input message="tns:UpdateKirimanSoapIn" />
+      <wsdl:output message="tns:UpdateKirimanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertSMS">
+      <wsdl:input message="tns:InsertSMSSoapIn" />
+      <wsdl:output message="tns:InsertSMSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNoSJ">
+      <wsdl:input message="tns:UpdateNoSJSoapIn" />
+      <wsdl:output message="tns:UpdateNoSJSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertKirimKeBPAS">
+      <wsdl:input message="tns:InsertKirimKeBPASSoapIn" />
+      <wsdl:output message="tns:InsertKirimKeBPASSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertKirimKeBPASFromPO">
+      <wsdl:input message="tns:InsertKirimKeBPASFromPOSoapIn" />
+      <wsdl:output message="tns:InsertKirimKeBPASFromPOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertDeliveryKertasDepo">
+      <wsdl:input message="tns:InsertDeliveryKertasDepoSoapIn" />
+      <wsdl:output message="tns:InsertDeliveryKertasDepoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryKertasDepo">
+      <wsdl:input message="tns:UpdateDeliveryKertasDepoSoapIn" />
+      <wsdl:output message="tns:UpdateDeliveryKertasDepoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryKertasDepoPlant">
+      <wsdl:input message="tns:UpdateDeliveryKertasDepoPlantSoapIn" />
+      <wsdl:output message="tns:UpdateDeliveryKertasDepoPlantSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryKertasKAPlant">
+      <wsdl:input message="tns:UpdateDeliveryKertasKAPlantSoapIn" />
+      <wsdl:output message="tns:UpdateDeliveryKertasKAPlantSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TaskMonitoring">
+      <wsdl:input message="tns:TaskMonitoringSoapIn" />
+      <wsdl:output message="tns:TaskMonitoringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TaskMonitoringFilter">
+      <wsdl:input message="tns:TaskMonitoringFilterSoapIn" />
+      <wsdl:output message="tns:TaskMonitoringFilterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TaskAutoClosing">
+      <wsdl:input message="tns:TaskAutoClosingSoapIn" />
+      <wsdl:output message="tns:TaskAutoClosingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SimpanKurs">
+      <wsdl:input message="tns:SimpanKursSoapIn" />
+      <wsdl:output message="tns:SimpanKursSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanKertas">
+      <wsdl:input message="tns:DataKirimanKertasSoapIn" />
+      <wsdl:output message="tns:DataKirimanKertasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanKertasFilterBy">
+      <wsdl:input message="tns:DataKirimanKertasFilterBySoapIn" />
+      <wsdl:output message="tns:DataKirimanKertasFilterBySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanByChecker">
+      <wsdl:input message="tns:DataKirimanByCheckerSoapIn" />
+      <wsdl:output message="tns:DataKirimanByCheckerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanByDepo">
+      <wsdl:input message="tns:DataKirimanByDepoSoapIn" />
+      <wsdl:output message="tns:DataKirimanByDepoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanBySuppiler">
+      <wsdl:input message="tns:DataKirimanBySuppilerSoapIn" />
+      <wsdl:output message="tns:DataKirimanBySuppilerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemsSJ">
+      <wsdl:input message="tns:GetItemsSJSoapIn" />
+      <wsdl:output message="tns:GetItemsSJSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNokendaraan">
+      <soap:operation soapAction="http://tempuri.org/GetNokendaraan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNoPolByPlant">
+      <soap:operation soapAction="http://tempuri.org/GetNoPolByPlant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DetailKendaraan">
+      <soap:operation soapAction="http://tempuri.org/DetailKendaraan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAliasKendaraan">
+      <soap:operation soapAction="http://tempuri.org/GetAliasKendaraan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSJ">
+      <soap:operation soapAction="http://tempuri.org/GetSJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSJDepo">
+      <soap:operation soapAction="http://tempuri.org/GetSJDepo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSchedule">
+      <soap:operation soapAction="http://tempuri.org/GetSchedule" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHargaTerendah">
+      <soap:operation soapAction="http://tempuri.org/GetHargaTerendah" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataFromTable">
+      <soap:operation soapAction="http://tempuri.org/GetDataFromTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTable">
+      <soap:operation soapAction="http://tempuri.org/GetDataTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLapak">
+      <soap:operation soapAction="http://tempuri.org/UpdateLapak" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateKiriman">
+      <soap:operation soapAction="http://tempuri.org/UpdateKiriman" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertSMS">
+      <soap:operation soapAction="http://tempuri.org/InsertSMS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNoSJ">
+      <soap:operation soapAction="http://tempuri.org/UpdateNoSJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKirimKeBPAS">
+      <soap:operation soapAction="http://tempuri.org/InsertKirimKeBPAS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKirimKeBPASFromPO">
+      <soap:operation soapAction="http://tempuri.org/InsertKirimKeBPASFromPO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDeliveryKertasDepo">
+      <soap:operation soapAction="http://tempuri.org/InsertDeliveryKertasDepo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryKertasDepo">
+      <soap:operation soapAction="http://tempuri.org/UpdateDeliveryKertasDepo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryKertasDepoPlant">
+      <soap:operation soapAction="http://tempuri.org/UpdateDeliveryKertasDepoPlant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryKertasKAPlant">
+      <soap:operation soapAction="http://tempuri.org/UpdateDeliveryKertasKAPlant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TaskMonitoring">
+      <soap:operation soapAction="http://tempuri.org/TaskMonitoring" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TaskMonitoringFilter">
+      <soap:operation soapAction="http://tempuri.org/TaskMonitoringFilter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TaskAutoClosing">
+      <soap:operation soapAction="http://tempuri.org/TaskAutoClosing" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimpanKurs">
+      <soap:operation soapAction="http://tempuri.org/SimpanKurs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanKertas">
+      <soap:operation soapAction="http://tempuri.org/DataKirimanKertas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanKertasFilterBy">
+      <soap:operation soapAction="http://tempuri.org/DataKirimanKertasFilterBy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanByChecker">
+      <soap:operation soapAction="http://tempuri.org/DataKirimanByChecker" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanByDepo">
+      <soap:operation soapAction="http://tempuri.org/DataKirimanByDepo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanBySuppiler">
+      <soap:operation soapAction="http://tempuri.org/DataKirimanBySuppiler" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemsSJ">
+      <soap:operation soapAction="http://tempuri.org/GetItemsSJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNokendaraan">
+      <soap12:operation soapAction="http://tempuri.org/GetNokendaraan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNoPolByPlant">
+      <soap12:operation soapAction="http://tempuri.org/GetNoPolByPlant" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DetailKendaraan">
+      <soap12:operation soapAction="http://tempuri.org/DetailKendaraan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAliasKendaraan">
+      <soap12:operation soapAction="http://tempuri.org/GetAliasKendaraan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSJ">
+      <soap12:operation soapAction="http://tempuri.org/GetSJ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSJDepo">
+      <soap12:operation soapAction="http://tempuri.org/GetSJDepo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSchedule">
+      <soap12:operation soapAction="http://tempuri.org/GetSchedule" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHargaTerendah">
+      <soap12:operation soapAction="http://tempuri.org/GetHargaTerendah" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataFromTable">
+      <soap12:operation soapAction="http://tempuri.org/GetDataFromTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataTable">
+      <soap12:operation soapAction="http://tempuri.org/GetDataTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLapak">
+      <soap12:operation soapAction="http://tempuri.org/UpdateLapak" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateKiriman">
+      <soap12:operation soapAction="http://tempuri.org/UpdateKiriman" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertSMS">
+      <soap12:operation soapAction="http://tempuri.org/InsertSMS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateNoSJ">
+      <soap12:operation soapAction="http://tempuri.org/UpdateNoSJ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKirimKeBPAS">
+      <soap12:operation soapAction="http://tempuri.org/InsertKirimKeBPAS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertKirimKeBPASFromPO">
+      <soap12:operation soapAction="http://tempuri.org/InsertKirimKeBPASFromPO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDeliveryKertasDepo">
+      <soap12:operation soapAction="http://tempuri.org/InsertDeliveryKertasDepo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryKertasDepo">
+      <soap12:operation soapAction="http://tempuri.org/UpdateDeliveryKertasDepo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryKertasDepoPlant">
+      <soap12:operation soapAction="http://tempuri.org/UpdateDeliveryKertasDepoPlant" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDeliveryKertasKAPlant">
+      <soap12:operation soapAction="http://tempuri.org/UpdateDeliveryKertasKAPlant" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TaskMonitoring">
+      <soap12:operation soapAction="http://tempuri.org/TaskMonitoring" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TaskMonitoringFilter">
+      <soap12:operation soapAction="http://tempuri.org/TaskMonitoringFilter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TaskAutoClosing">
+      <soap12:operation soapAction="http://tempuri.org/TaskAutoClosing" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimpanKurs">
+      <soap12:operation soapAction="http://tempuri.org/SimpanKurs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanKertas">
+      <soap12:operation soapAction="http://tempuri.org/DataKirimanKertas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanKertasFilterBy">
+      <soap12:operation soapAction="http://tempuri.org/DataKirimanKertasFilterBy" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanByChecker">
+      <soap12:operation soapAction="http://tempuri.org/DataKirimanByChecker" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanByDepo">
+      <soap12:operation soapAction="http://tempuri.org/DataKirimanByDepo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataKirimanBySuppiler">
+      <soap12:operation soapAction="http://tempuri.org/DataKirimanBySuppiler" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemsSJ">
+      <soap12:operation soapAction="http://tempuri.org/GetItemsSJ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="http://192.168.222.5/service1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="http://192.168.222.5/service1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

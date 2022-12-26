@@ -1,0 +1,524 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.nbTable1 {
+    BORDER-COLLAPSE: collapse;
+    OVERFLOW: scroll;
+    WIDTH: 100%;
+    HEIGHT: 100%;
+    font-size: x-small;
+    font-family: tahoma;
+}
+
+.tblForm {
+    font-size: x-small;
+    font-family: tahoma;
+    vertical-align: top;
+}
+
+.nbTableHeader {
+    padding: inherit;
+    border-collapse: collapse;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    font-size: small;
+    font-family: tahoma;
+    font-weight: bold;
+    background-color: gray;
+    color: #ffff66;
+    border-spacing: 0;
+}
+
+td.FormLabel {
+    padding-left: 10px;
+    width: 10%;
+}
+
+td.FormField {
+    width: 15%;
+}
+
+td.FormBlank {
+    width: 5%;
+}
+
+.menubar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #808080;
+    width: 100%;
+    height: 45px;
+}
+
+table.menubar {
+    border-collapse: collapse;
+}
+
+table.gvTable {
+    table-layout: fixed;
+}
+
+    table.gvTable th {
+        position: relative;
+    }
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: #dcdcdc;
+}
+/* td.form { height:30px;} */
+.BorderRL {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius-topleft: 8px;
+}
+
+.borderRT {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius-topright: 8px;
+}
+
+.border {
+    border: solid 1px #DCDCDC;
+}
+
+.borderLeft {
+    border-left: solid 1px;
+}
+
+.borderRight {
+    border-right: solid 1px;
+}
+
+.borderBotom {
+    border-bottom: solid 1px White;
+}
+
+.formh {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: #b0c4de;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    height: 30px;
+}
+
+.formhnoradius {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: #b0c4de;
+    height: 30px;
+}
+
+.txtbox {
+    border-style: none;
+    height: 24px;
+}
+
+select {
+    cursor: pointer;
+}
+
+.result_fail {
+    color: #FE0000;
+    font-style: italic;
+}
+
+.result_done {
+    color: #00DB24;
+    font-style: italic;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    font-style: italic;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.col_hidden {
+    display: none;
+}
+
+.txtUpper {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.autocomplete_completionListElement {
+    margin: 0px !important;
+    background-color: White;
+    color: windowtext;
+    border: #006699;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    overflow: auto;
+    font-family: Calibri;
+    font-size: small;
+    text-align: left;
+    list-style-type: none;
+    margin-left: 1px;
+    padding-left: 4px;
+    max-height: 200px;
+    min-width: 200px !important;
+}
+
+.AutoExtenderList {
+    border-bottom: solid 0.5px #006699;
+    cursor: pointer;
+    color: Maroon;
+}
+
+.AutoExtenderHighlight {
+    color: White;
+    background-color: #006699;
+    cursor: pointer;
+}
+
+.MyImageButton {
+    cursor: pointer;
+}
+
+.ajax__slider_h_rail {
+    border: 1px solid;
+    /* border-radius: 3px 3px 3px 3px;*/
+    height: 8px;
+    position: relative;
+}
+
+.ajax__slider_h_handle {
+    height: 22px;
+    position: absolute;
+    top: -7px !important;
+    width: 10px;
+}
+
+.tbHeader {
+    background-color: #6495ed;
+    /*height:25px;*/
+}
+
+.EvenRows {
+    background-color: #f0ffff;
+}
+
+.OddRows {
+    background-color: #E6E6FA;
+}
+
+.lock {
+    background-color: #B0E0E6;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    /*padding:10%; */
+    border: 5px solid #1E90FF;
+    /*opacity:6;*/
+    z-index: 9999;
+    position: absolute;
+}
+
+    .lock .header {
+        background-color: #1E90FF;
+        width: 100%;
+        height: 35px;
+        font-size: large;
+        font-weight: bold;
+    }
+
+.angka {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.baris {
+    cursor: pointer;
+    height: 25px;
+}
+
+    .baris:hover {
+        background: #CCFF99;
+    }
+
+.left {
+    text-align: left;
+    padding-left: 5px;
+}
+/* css u table repeater */
+.kotak {
+    border: 1px solid #838b8b;
+}
+
+    .kotak.no-left {
+        border-left: none;
+    }
+
+    .kotak.no-right {
+        border-right: none;
+    }
+
+    .kotak.no-top {
+        border-top: none;
+    }
+
+    .kotak.no-bottom {
+        border-bottom: none;
+    }
+
+.tengah {
+    text-align: center;
+}
+
+.kiri {
+    text-align: left;
+}
+
+.kanan {
+    text-align: right;
+}
+
+button.img {
+    background-image: url(../images/dtpJavaScript.gif) no-repeat;
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.gambar option {
+    background-image: url(../images/dots.gif) no-repeat;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.content {
+    background-color: #B0C4DE;
+    width: 100%;
+    height: 100%;
+}
+
+.contentlist {
+    background-color: White;
+    padding: 5px;
+    border: 2px solid #B0C4DE;
+    /*border-top:none;*/
+    width: 100%;
+    overflow: auto;
+}
+
+#popcontent {
+    background-color: White;
+    border: 2px solid #B0C4DE;
+    width: 100%;
+    overflow: auto;
+}
+
+.total {
+    background-color: #aab7b8;
+    font-weight: bold;
+    height: 24px;
+}
+
+.superx {
+    position: relative;
+    border: 1px solid #ffff66;
+}
+
+.superscript {
+    font-size: .83em;
+    line-height: 0.5em;
+    vertical-align: super;
+    position: relative;
+    top: -0.02em;
+}
+
+.float-left {
+    float: left;
+}
+
+.DropDown {
+    width: 80%;
+}
+
+.NestedRow {
+    background-color: #99CCCC;
+}
+
+.GreenTypeComboBoxStyle .ajax__combobox_itemlist li {
+    background-color: #CCC;
+    border: 1px solid;
+    color: White;
+    font-size: medium;
+    font-family: Courier New;
+    padding-bottom: 5px;
+}
+
+.JudulList {
+    background-image: url(../../images/Box.png) repeat-x;
+}
+
+.JudulListRight {
+    background-image: url(../../images/BoxRight.png) no-repeat;
+}
+
+.styleDef {
+    background-color: Blue;
+    color: White;
+}
+/*no scoll table*/
+.theadstatic {
+    display: block;
+}
+
+.tbodyscroll {
+    display: block;
+    overflow: auto;
+}
+
+.nowrap {
+    white-space: nowrap word-wrap:break-word;
+}
+
+/*table thead {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}*/
+.outerDIV {
+    position: relative;
+    padding-top: 20px;
+}
+
+.innerDIV {
+    overflow-y: auto;
+    height: 200px;
+}
+
+.Line3 {
+    background-color: #F5DEB3;
+    height: 24px;
+}
+
+.subtotal {
+    background-color: #73AD21;
+    font-weight: bold;
+}
+
+.textmode {
+    mso-number-format: \@;
+}
+
+.tbStandart {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: x-small;
+    overflow: auto;
+}
+
+.tdHeader {
+    width: 100%;
+    height: 49px;
+}
+
+.tbNormal {
+    border-collapse: collapse;
+    font-size: x-small;
+    overflow: auto;
+}
+
+.txtongrid {
+    border: transparent;
+    background-color: transparent;
+}
+
+.noBorder {
+    -webkit-appearance: none;
+}
+
+.modalBackground {
+    background-color: silver;
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    z-index: 9998;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    /*width:100%;
+		height:100%;*/
+}
+
+.modalPopup {
+    background-color: silver;
+    border-width: 3px;
+    border-style: solid;
+    border-color: silver;
+    width: 500px;
+    height: 200px;
+    z-index: 9999;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.NonLine {
+    background: #CCFF22;
+}
+
+p.Justify {
+    font-size: 1em;
+    line-height: 1.25em;
+    margin: 1.25em 0;
+    text-align: justify;
+}
+
+.fontKecil {
+    font-size: x-small;
+}
+
+.rebobot {
+    background-color: #ec7063;
+}
+
+.rebobot2 {
+    background-color: #d2b4de;
+}
+
+.triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #ec7063;
+    border-left: 20px solid transparent;
+}
+
+.withRebobot {
+    border-bottom: 3px solid red;
+}
+
+.transparant {
+    background-color: transparent;
+}
+.label {
+            font-size: 10px;
+        }

@@ -1,0 +1,1059 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Factory.BM_DestackingFacade" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQABUIEAQAAAAAAAAAEQAAAAAEQAQAACCIAAAUgAAA=</HashCode>
+      <FileName>BM_DestackingFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.BM_PaletFacade" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAAAAIAAAAABAAAQAAAAEAAQAAIAAAQAAAAAA=</HashCode>
+      <FileName>BM_PaletFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Class1" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.FC_ItemsFacade" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CJ0AAGoAFCACSIIYAAAAIAQgAAkESQQAABAEoAAAiAA=</HashCode>
+      <FileName>FC_ItemsFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.FC_LokasiFacade" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIRAAEYCAAAIAAAAECAAAEAgAAHAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>FC_LokasiFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.FC_RakFacade" Collapsed="true">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAAAAIAAACABIAAAAAAAEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>FC_RakFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.FormulaFacade" Collapsed="true">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAAAAAAAAAAAAAgAAAAAEAgQAAAIAAAAAAAAA=</HashCode>
+      <FileName>FormulaFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.ReportFacadeT1T3" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CY8AABkAAAAgAQACEAAAgAACBAqADowAAAAAAAAAAA8=</HashCode>
+      <FileName>ReportFacadeT1T3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_AdjustDetailFacade" Collapsed="true">
+    <Position X="8.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYACUIAIAAIAAAAACAAAAAAAEEAAQAAAEABgAAAAAA=</HashCode>
+      <FileName>T1_AdjustDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_AdjustFacade" Collapsed="true">
+    <Position X="15.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQACUIAIAEAAAIAAAAAAAAAAEEAAQACAAAAAAAAAAA=</HashCode>
+      <FileName>T1_AdjustFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_AdjustProcessFacade" Collapsed="true">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAICAICAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>T1_AdjustProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_JemurFacade" Collapsed="true">
+    <Position X="7" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIQECUICIAAAQAAgAAIAQCAQAAUAEQAACAAQIAAgBAg=</HashCode>
+      <FileName>T1_JemurFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_SaldoPerLokasiFacade" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKQAAEIAAAEAARAAAAQQAAAgAAEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T1_SaldoPerLokasiFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_SerahFacade" Collapsed="true">
+    <Position X="17.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIUAbULAIAAFABAAACAAAoAAIAEAAQYBaAAABAAAAAA=</HashCode>
+      <FileName>T1_SerahFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_AdjustFacade" Collapsed="true">
+    <Position X="4.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQACUIAIAEAAAAAAAAAIgAAAEEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_AdjustFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_AdjustProcessFacade" Collapsed="true">
+    <Position X="22.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAICAICAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_AdjustProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_AdjustDetailFacade" Collapsed="true">
+    <Position X="10.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYACUIAIAAIAAAAACAAAAAAAEEAAQAAAAAAgAAAABQ=</HashCode>
+      <FileName>T3_AdjutDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_AsimetrisFacade" Collapsed="true">
+    <Position X="13" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BKQACUAAIAGAAAAAAAgAAAAAAAEAAQBAAAIAAAAAAAA=</HashCode>
+      <FileName>T3_AsimetrisFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_AsimetrisProcessFacade" Collapsed="true">
+    <Position X="25.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAAAAIAECAQAAAEAAAAAAAIAAQAAAAA=</HashCode>
+      <FileName>T3_AsimetrisProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_BiayaFacade" Collapsed="true">
+    <Position X="27.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAEAABAAAAAAAAAIAAAgEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_BiayaFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_GroupsFacade" Collapsed="true">
+    <Position X="29.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAEEIAAAAAAIAAAAQAgAAAAAEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_GroupsFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_KirimDetailFacade" Collapsed="true">
+    <Position X="2.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIRACUIAIAAAAAAAAAAEAQAAAEEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_KirimDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_KirimFacade" Collapsed="true">
+    <Position X="6.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQACUIAMAAAQAAAAAAAAAAAAAEAEQAAAAAAQAAAAIA=</HashCode>
+      <FileName>t3_KirimFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_KirimProcessFacade" Collapsed="true">
+    <Position X="22.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAAAAAAAAAIIAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_KirimProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_MutasiLokFacade" Collapsed="true">
+    <Position X="5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIQACUIAIAAAAAAAAAAAAAAAAAEAAQIAAAAAAAAAAgA=</HashCode>
+      <FileName>T3_MutasiLokFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_MutasiLokProcessFacade" Collapsed="true">
+    <Position X="25.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAAAAIAAAIAAAAAAAAAAAAIBAAAAAAA=</HashCode>
+      <FileName>T3_MutasiLokProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_MutasiWIPFacade" Collapsed="true">
+    <Position X="27.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAEAAAAAAAAAAAAAQAAAEAAQAAAAAAAAAAgAA=</HashCode>
+      <FileName>T3_MutasiWIPFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_RekapFacade" Collapsed="true">
+    <Position X="2.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIUACUIIIAAAQAAAAAAEAAAABAGAARAIQAAQAAAAAAA=</HashCode>
+      <FileName>T3_RekapFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_ReturFacade" Collapsed="true">
+    <Position X="0.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIQACUIEIAAAAQAAAAAAAAAAAEEAQQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_ReturFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_ReturMasterFacade" Collapsed="true">
+    <Position X="0.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAC0IAIAEAAAAAACAAAAAAAEEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_ReturMasterFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_ReturProcessFacade" Collapsed="true">
+    <Position X="22.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAQAIAAIAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>T3_ReturProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SerahFacade" Collapsed="true">
+    <Position X="24.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMQACUIAIAAAAAAAgAAAAAAACAEAgQAACAIAAAAAAAA=</HashCode>
+      <FileName>T3_SerahFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SiapKirimFacade" Collapsed="true">
+    <Position X="22" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMQACUIAIAAAAAAAAAQAAAAAQEEAEQAACAAAAAAAEAA=</HashCode>
+      <FileName>T3_SiapKirimFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SiapKirimProcessFacade" Collapsed="true">
+    <Position X="27.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAFAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>T3_SiapKirimProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SimetrisFacade" Collapsed="true">
+    <Position X="19.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIQACUIAIAAAAAAAAAAAAAgAAAEAAQCAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_SimetrisFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SimetrisProcessFacade" Collapsed="true">
+    <Position X="18.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAEAAAAAAAIAEAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>T3_SimetrisProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SJ_CMDetailFacade" Collapsed="true">
+    <Position X="20.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIQAAEIAAAAAAAAAAAAAAAAAAAEAAQgAAAAAAIAAAAA=</HashCode>
+      <FileName>T3_SJ_CMDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SJ_CMFacade" Collapsed="true">
+    <Position X="22.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAAAAAAAAAAAAAAAAACAEAAQIAABAAAAAAAAA=</HashCode>
+      <FileName>T3_SJ_CMFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SJ_ExDetailFacade" Collapsed="true">
+    <Position X="24" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIQAAEIAAQAAAAAAAAAAAAAAAAEAAQAAQAAAAAAAAAA=</HashCode>
+      <FileName>T3_SJ_ExDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SJ_ExFacade" Collapsed="true">
+    <Position X="25.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQABEIAAAAAAAAAAAAQAAAAAAEAAQAAABAAAAAAAAA=</HashCode>
+      <FileName>T3_SJ_ExFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SJDetailFacade" Collapsed="true">
+    <Position X="27.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoQAAEIAAIAAAAAAAAAAAAAAAAEIARAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_SJDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.TerimaProcessFacade" Collapsed="true">
+    <Position X="29.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAAAAIAEAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>TerimaProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_SerahProcessFacade">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAIIAAAAAAAAAAAAABAAAAAAAEAAA=</HashCode>
+      <FileName>T1_SerahProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessFacade.AbstractFacade" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AbstractFacade2" Collapsed="true">
+    <Position X="1.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AbstractTransactionFacade" Collapsed="true">
+    <Position X="13" Y="19.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AccClosingFacade" Collapsed="true">
+    <Position X="61" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AdjustDetailFacade" Collapsed="true">
+    <Position X="16.25" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AdjustFacade" Collapsed="true">
+    <Position X="2.75" Y="23.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AdjustProcessFacade" Collapsed="true">
+    <Position X="9.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AreaDistribusiFacade" Collapsed="true">
+    <Position X="119.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AreaFacade" Collapsed="true">
+    <Position X="142" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AssetFacade" Collapsed="true">
+    <Position X="160" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AssetManagementFacade" Collapsed="true">
+    <Position X="1.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.BankAccountFacade" Collapsed="true">
+    <Position X="189.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.BanksFacade" Collapsed="true">
+    <Position X="209.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.BiayaFacade" Collapsed="true">
+    <Position X="229.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.BItemMerkFacade" Collapsed="true">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.BItemNameFacade" Collapsed="true">
+    <Position X="22.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.BItemTypeFacade" Collapsed="true">
+    <Position X="43" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.BranchDepoFacade" Collapsed="true">
+    <Position X="63.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.BranchFacade" Collapsed="true">
+    <Position X="76.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.CategoryFacade" Collapsed="true">
+    <Position X="88" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ChartOfAccountFacade" Collapsed="true">
+    <Position X="101.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.CityFacade" Collapsed="true">
+    <Position X="121.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.CompanyFacade" Collapsed="true">
+    <Position X="144.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ConvertanFacade" Collapsed="true">
+    <Position X="5" Y="24.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ConvertanProcessFacade" Collapsed="true">
+    <Position X="343" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.CustomerFacade" Collapsed="true">
+    <Position X="191.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.DepoFacade" Collapsed="true">
+    <Position X="211.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.DeptFacade" Collapsed="true">
+    <Position X="232" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.DeptSectionFacade" Collapsed="true">
+    <Position X="18.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.DistributorFacade" Collapsed="true">
+    <Position X="25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.DocumentIDFacade" Collapsed="true">
+    <Position X="45.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.EmailReportFacade" Collapsed="true">
+    <Position X="344.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.EncryptPasswordFacade" Collapsed="true">
+    <Position X="346.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.EventLogFacade" Collapsed="true">
+    <Position X="90.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.EventLogProcess" Collapsed="true">
+    <Position X="348.25" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ExpedisiDetailFacade" Collapsed="true">
+    <Position X="16.25" Y="23.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ExpedisiFacade" Collapsed="true">
+    <Position X="20.75" Y="23.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ExpedisiProcessFacade" Collapsed="true">
+    <Position X="350" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.Global" Collapsed="true">
+    <Position X="351.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.GradeFacade" Collapsed="true">
+    <Position X="193.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.GroupsFacade" Collapsed="true">
+    <Position X="214" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.GroupsPurchnFacade" Collapsed="true">
+    <Position X="234.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.HargaBarangFacade" Collapsed="true">
+    <Position X="20.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.HargaKertasFacade" Collapsed="true">
+    <Position X="27.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.HariLiburFacade" Collapsed="true">
+    <Position X="47.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.HistPOFacade" Collapsed="true">
+    <Position X="9.5" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ImprovementFacade" Collapsed="true">
+    <Position X="79" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.IndentFacade" Collapsed="true">
+    <Position X="92.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.InventoryDepoFacade" Collapsed="true">
+    <Position X="103.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.InventoryFacade" Collapsed="true">
+    <Position X="124" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.InventoryStockFacade" Collapsed="true">
+    <Position X="146.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ISO_BagianFacade" Collapsed="true">
+    <Position X="162.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ISO_CategoryFacade" Collapsed="true">
+    <Position X="175.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ISO_DeptFacade" Collapsed="true">
+    <Position X="196" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ISO_DocumentNoFacade" Collapsed="true">
+    <Position X="216.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ISO_SOPFacade" Collapsed="true">
+    <Position X="0.5" Y="25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ISO_SOPProcessFacade" Collapsed="true">
+    <Position X="343" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ISO_SOPScoreFacade" Collapsed="true">
+    <Position X="29.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ISO_UserFacade" Collapsed="true">
+    <Position X="49.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ItemPointFacade" Collapsed="true">
+    <Position X="65.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ItemPriceFacade" Collapsed="true">
+    <Position X="81.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ItemsFacade" Collapsed="true">
+    <Position X="5" Y="23.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ItemsProcessFacade" Collapsed="true">
+    <Position X="344.75" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ItemTypeFacade" Collapsed="true">
+    <Position X="126.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ItemTypePurchnFacade" Collapsed="true">
+    <Position X="148.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.KabupatenFacade" Collapsed="true">
+    <Position X="164.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.KartuStockFacade" Collapsed="true">
+    <Position X="178" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.LapBulAllFacade" Collapsed="true">
+    <Position X="18.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.LapBulAllProcessFacade" Collapsed="true">
+    <Position X="346.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.LapHarianFacade" Collapsed="true">
+    <Position X="2.75" Y="26" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.LapHarianProcessFacade" Collapsed="true">
+    <Position X="348.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.LinkItemIDMktFacade" Collapsed="true">
+    <Position X="31.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.LitemNameFacade" Collapsed="true">
+    <Position X="52" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.LoadingTimeFacade" Collapsed="true">
+    <Position X="67.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MasterKendaraanFacade" Collapsed="true">
+    <Position X="18.5" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MataUangFacade" Collapsed="true">
+    <Position X="94.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MataUangKursFacade" Collapsed="true">
+    <Position X="106" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MenusFacade" Collapsed="true">
+    <Position X="128.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MinusQtyPOFacade" Collapsed="true">
+    <Position X="350" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MTC_ArmadaFacade" Collapsed="true">
+    <Position X="7.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MTC_MacSysFacade" Collapsed="true">
+    <Position X="180.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MTC_MacSysPartFacade" Collapsed="true">
+    <Position X="198.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MTC_PerawatanFacade" Collapsed="true">
+    <Position X="218.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MTC_ProjectFacade" Collapsed="true">
+    <Position X="236.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MTC_ProjectPakaiFacade" Collapsed="true">
+    <Position X="18.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MTC_ProjectProsesPakai" Collapsed="true">
+    <Position X="351.75" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MTC_SarmutFacade" Collapsed="true">
+    <Position X="5" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MTC_SarmutProcesFacade" Collapsed="true">
+    <Position X="343" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MTC_ZonaFacade" Collapsed="true">
+    <Position X="83.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MutasiAssetDetailFacade" Collapsed="true">
+    <Position X="7.25" Y="23.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MutasiAssetFacade" Collapsed="true">
+    <Position X="11.75" Y="23.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.MutasiAssetProcessFacade" Collapsed="true">
+    <Position X="344.75" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.OtorFacade" Collapsed="true">
+    <Position X="151" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PakaiDetailFacade" Collapsed="true">
+    <Position X="9.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PakaiDocNoFacade" Collapsed="true">
+    <Position X="14" Y="24.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PakaiFacade" Collapsed="true">
+    <Position X="20.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PakaiFormulaFacade" Collapsed="true">
+    <Position X="220.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PakaiProcessFacade" Collapsed="true">
+    <Position X="346.5" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PaketItemDetailFacade" Collapsed="true">
+    <Position X="9.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PCashFacade" Collapsed="true">
+    <Position X="34" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PlantFacade" Collapsed="true">
+    <Position X="54.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PlantGroupFacade" Collapsed="true">
+    <Position X="70" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.POApprovalStatusFacade" Collapsed="true">
+    <Position X="348.25" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.POCloseCancelFacade" Collapsed="true">
+    <Position X="350" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PointTokoFacade" Collapsed="true">
+    <Position X="108.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.POPurchnDetailEditFacade" Collapsed="true">
+    <Position X="130.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.POPurchnDetailFacade" Collapsed="true">
+    <Position X="23" Y="23.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.POPurchnFacade" Collapsed="true">
+    <Position X="11.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.POPurchnProcessFacade" Collapsed="true">
+    <Position X="351.75" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PostingPeriodFacade" Collapsed="true">
+    <Position X="200.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.printersFacade" Collapsed="true">
+    <Position X="223" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PromoFacade" Collapsed="true">
+    <Position X="238.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.PropinsiFacade" Collapsed="true">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.QuotaFacade" Collapsed="true">
+    <Position X="36.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.RakFacade" Collapsed="true">
+    <Position X="56.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReceiptAssetDetailFacade" Collapsed="true">
+    <Position X="11.75" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReceiptAssetFacade" Collapsed="true">
+    <Position X="20.75" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReceiptAssetProsessFacade" Collapsed="true">
+    <Position X="343" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReceiptDetailFacade" Collapsed="true">
+    <Position X="14" Y="23.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReceiptDocNoFacade" Collapsed="true">
+    <Position X="18.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReceiptFacade" Collapsed="true">
+    <Position X="0.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReceiptProcessFacade" Collapsed="true">
+    <Position X="344.75" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReportFacade" Collapsed="true">
+    <Position X="346.5" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReportFacadeAcc" Collapsed="true">
+    <Position X="348.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReportFacadeSPKP" Collapsed="true">
+    <Position X="350" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.RepostingFacade" Collapsed="true">
+    <Position X="241" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReturPakaiDetailFacade" Collapsed="true">
+    <Position X="11.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReturPakaiFacade" Collapsed="true">
+    <Position X="20.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReturPakaiProcessFacade" Collapsed="true">
+    <Position X="351.75" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReturSupplierDetailFacade" Collapsed="true">
+    <Position X="14" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReturSupplierFacade" Collapsed="true">
+    <Position X="23" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ReturSupplierProcessFacade" Collapsed="true">
+    <Position X="343" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.RevisiPOFacade" Collapsed="true">
+    <Position X="110.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.RoleRulesFacade" Collapsed="true">
+    <Position X="133" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.RolesFacade" Collapsed="true">
+    <Position X="153.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ROPFacade" Collapsed="true">
+    <Position X="166.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.RulesFacade" Collapsed="true">
+    <Position X="182.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SaldoInventoryBJFacade" Collapsed="true">
+    <Position X="202.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SaldoInventoryBJProcessFacade" Collapsed="true">
+    <Position X="344.75" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SaldoInventoryFacade" Collapsed="true">
+    <Position X="243.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SaldoInventoryProcessFacade" Collapsed="true">
+    <Position X="346.5" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SaldoInventoryT1Facade" Collapsed="true">
+    <Position X="38.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SaldoInventoryT1ProcessFacade" Collapsed="true">
+    <Position X="348.25" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SaldoSupplierFacade" Collapsed="true">
+    <Position X="72.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SaldoSupplierProcessFacade" Collapsed="true">
+    <Position X="350" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SalesmanFacade" Collapsed="true">
+    <Position X="97" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SettingNumberFacade" Collapsed="true">
+    <Position X="112.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SisiFacade" Collapsed="true">
+    <Position X="135.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SM_KendaraanFacade" Collapsed="true">
+    <Position X="2.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SM_LoadingTimeDetailFacade" Collapsed="true">
+    <Position X="169" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SM_LoadingTimeFacade" Collapsed="true">
+    <Position X="184.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SPKP_DescFacade" Collapsed="true">
+    <Position X="205" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SPKP_MasterFacade" Collapsed="true">
+    <Position X="225.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SPKP_SchFacade" Collapsed="true">
+    <Position X="245.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SPPDetailFacade" Collapsed="true">
+    <Position X="14" Y="20.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SPPFacade" Collapsed="true">
+    <Position X="23" Y="20.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SPPMultiGudangFacade" Collapsed="true">
+    <Position X="7.25" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SPPNumberFacade" Collapsed="true">
+    <Position X="74.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SPPPrivateFacade" Collapsed="true">
+    <Position X="0.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SPPProcessFacade" Collapsed="true">
+    <Position X="25.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.StockMovementFacade" Collapsed="true">
+    <Position X="115" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SubDistributorFacade" Collapsed="true">
+    <Position X="137.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SupplierFacade" Collapsed="true">
+    <Position X="155.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.SuppPurchFacade" Collapsed="true">
+    <Position X="171.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TabelConversiFacade" Collapsed="true">
+    <Position X="16.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TabelConversiProcessFacade" Collapsed="true">
+    <Position X="343" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TaskFacade" Collapsed="true">
+    <Position X="23" Y="24.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TaskProcessFacade" Collapsed="true">
+    <Position X="344.75" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TawarDetailFacade" Collapsed="true">
+    <Position X="16.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TawarFacade" Collapsed="true">
+    <Position X="2.75" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TawarProcessFacade" Collapsed="true">
+    <Position X="346.5" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TerbilangFacade" Collapsed="true">
+    <Position X="348.25" Y="7" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TerminBayarFacade" Collapsed="true">
+    <Position X="85.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TermOfPayFacade" Collapsed="true">
+    <Position X="99.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TokoAsuhFacade" Collapsed="true">
+    <Position X="117.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TokoFacade" Collapsed="true">
+    <Position X="139.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TransDocFacade" Collapsed="true">
+    <Position X="157.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.TransDocNoFacade" Collapsed="true">
+    <Position X="173.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.UOMFacade" Collapsed="true">
+    <Position X="187" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.UserRolesFacade" Collapsed="true">
+    <Position X="207.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.UsersFacade" Collapsed="true">
+    <Position X="227.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.UsersHeadFacade" Collapsed="true">
+    <Position X="247.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.WebserviceFacade" Collapsed="true">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ZonaAreaFacade" Collapsed="true">
+    <Position X="40.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.ZonaFacade" Collapsed="true">
+    <Position X="58.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BusinessFacade.AbstractTransactionFacadeF" Collapsed="true">
+    <Position X="9.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQACUAAIAAAAQAAAIAAAAAAAAEAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>AbstractTransactionFacadeF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_JemurLgFacade">
+    <Position X="9" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIQECUICIAAAQAAgAAIAQCAQAAUAAQAACAAQIAAgBAg=</HashCode>
+      <FileName>T1_JemurLgFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

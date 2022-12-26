@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BusinessFacade.AbstractTransactionFacadeF" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQACUAAIAAAAQAAAIAAAAAAAAEAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>AbstractTransactionFacadeF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessFacade.KartuStockFacade" Collapsed="true">
+    <Position X="40.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AISAQEIAQAAAAAAQAAAAAAABAgEBAQAAIAAAAAAAAAA=</HashCode>
+      <FileName>KartuStockFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.BM_DestackingFacade" Collapsed="true">
+    <Position X="39" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQABUIEBQABAAAAAAAEwAAAAAEQAQAACCIAAAUgAAA=</HashCode>
+      <FileName>BM_DestackingFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.BM_PaletFacade" Collapsed="true">
+    <Position X="40.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAAAAIAAAAABAAAQAAAAEAAQAAIAAAQAAAAAA=</HashCode>
+      <FileName>BM_PaletFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.Class1" Collapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.FC_ItemsFacade" Collapsed="true">
+    <Position X="44.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CJ0AAGoAFCACSIIYAAAAIAQgAAkESQwAABAEoAAAjAA=</HashCode>
+      <FileName>FC_ItemsFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.FC_LokasiFacade" Collapsed="true">
+    <Position X="46" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIRAAEYCAAAIAAAAECAAgEAgAAHAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>FC_LokasiFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.FC_RakFacade" Collapsed="true">
+    <Position X="47.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAAAAIAAACABIAAAAAAAEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>FC_RakFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.FormulaFacade" Collapsed="true">
+    <Position X="39" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAAAAAAAAAAAAAgAAAAAEAgQAAAIAAAAAAAAA=</HashCode>
+      <FileName>FormulaFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.ReportFacadeT1T3" Collapsed="true">
+    <Position X="42.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CY8AABkACAAgAQACEACAgAACFAqADowAAAAAAAAAAA8=</HashCode>
+      <FileName>ReportFacadeT1T3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_AdjustDetailFacade" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYACUIAIAAIAAAAACAAAAAAAEEIAQAAAEABgAAAAAA=</HashCode>
+      <FileName>T1_AdjustDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_AdjustFacade" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQACUIAIAEAAAIAAAAAAAAAAEEAAQACAAAAAAAAAAA=</HashCode>
+      <FileName>T1_AdjustFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_AdjustProcessFacade" Collapsed="true">
+    <Position X="44.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAIAAAAAICAICAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>T1_AdjustProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_JemurFacade" Collapsed="true">
+    <Position X="34.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIQECUoCIAgAQAAgAAIAQCAQAQUAARAACAAQIIAgBAg=</HashCode>
+      <FileName>T1_JemurFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_JemurLgFacade" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIQECUICIAAAQAAgAAIAQCAQAAUAAQAACAAQIAAgBAg=</HashCode>
+      <FileName>T1_JemurLgFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_SaldoPerLokasiFacade" Collapsed="true">
+    <Position X="46" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKQAAEIAAAEAARAAAAQQAAAgAAEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T1_SaldoPerLokasiFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_SerahFacade" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIVAbULAJAAFYJAAACAAApAAIIEAAQYB6AAABAAAAAA=</HashCode>
+      <FileName>T1_SerahFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T1_SerahProcessFacade" Collapsed="true">
+    <Position X="47.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAiAABAIIAQAAAAAAAAAAABAAAAAAAEJAA=</HashCode>
+      <FileName>T1_SerahProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_AdjustFacade" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQACUIAIAEAAAAAAAAAIgAAAEEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_AdjustFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_AdjustProcessFacade" Collapsed="true">
+    <Position X="39" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAICAICAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_AdjustProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_AdjustDetailFacade" Collapsed="true">
+    <Position X="36.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYACUIAIAAIAAAAACAAAAAAAEEAAQAAAAAAgAAAABQ=</HashCode>
+      <FileName>T3_AdjutDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_AsimetrisFacade" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BKQACUAAIAGAAAAAAAgAAAAAAAEAAQBAAAIAAAAAAAA=</HashCode>
+      <FileName>T3_AsimetrisFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_AsimetrisProcessFacade" Collapsed="true">
+    <Position X="40.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAAAAIAECAQAAAEAAAAAAAIAAQAAAAA=</HashCode>
+      <FileName>T3_AsimetrisProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_BiayaFacade" Collapsed="true">
+    <Position X="42.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAEAABAAAAAAAAAIAAAgEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_BiayaFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_GroupsFacade" Collapsed="true">
+    <Position X="44.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAEEIAAAAAAIAAAAQAgAAAAAEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_GroupsFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_KirimDetailFacade" Collapsed="true">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIRACUIAIAAAAAAAAAAEAQAAAEEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_KirimDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_KirimFacade" Collapsed="true">
+    <Position X="29.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQACUIAMAAAQAAAAAAAAAAAAAEAEQAAAAAAQAAAAIA=</HashCode>
+      <FileName>t3_KirimFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_KirimProcessFacade" Collapsed="true">
+    <Position X="46" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAAAAAAAAAIIAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_KirimProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_MutasiLokFacade" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIQACUIAIAAAAAAAAAAAAAAAAAEAAQIAAAAAAAAAAgA=</HashCode>
+      <FileName>T3_MutasiLokFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_MutasiLokProcessFacade" Collapsed="true">
+    <Position X="47.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAAAAIAAAIAAAAAAAAAAAAIBAAAAAAA=</HashCode>
+      <FileName>T3_MutasiLokProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_MutasiWIPFacade" Collapsed="true">
+    <Position X="39" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAEAAAAAAAAAAAAAQAAAEAAQAAAAAAAAAAgAA=</HashCode>
+      <FileName>T3_MutasiWIPFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_RekapFacade" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIUQCUIIIAAASAAQAAAEAAAABAGAARAIQAAQAAAAAAA=</HashCode>
+      <FileName>T3_RekapFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_ReturFacade" Collapsed="true">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIQACUIEIAAAAQAAAAAAAAAAAEEAQQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_ReturFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_ReturMasterFacade" Collapsed="true">
+    <Position X="32" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAC0IAIAEAAAAAACAAAAAAAEEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_ReturMasterFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_ReturProcessFacade" Collapsed="true">
+    <Position X="40.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAQAIAAIAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>T3_ReturProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SerahFacade" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMQACUIAIAAAAAAAgAAAAAAACAEAgQAACQIAAAAAAAA=</HashCode>
+      <FileName>T3_SerahFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SiapKirimFacade" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMQACUIAIAAAAAAAAAQAAAAAQEEAEQAACAAAAAAAEAA=</HashCode>
+      <FileName>T3_SiapKirimFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SiapKirimProcessFacade" Collapsed="true">
+    <Position X="42.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAFAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>T3_SiapKirimProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SimetrisFacade" Collapsed="true">
+    <Position X="27.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIQACUoAIAAAAAAAAAAAAAgAAAEAAQCAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_SimetrisFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SimetrisProcessFacade" Collapsed="true">
+    <Position X="46" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAIEAAAAAAAIAEAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>T3_SimetrisProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SJ_CMDetailFacade" Collapsed="true">
+    <Position X="47.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIQAAEIAAAAAAAAAAAAAAAAAAAEAAQgAAAAAAIAAAAA=</HashCode>
+      <FileName>T3_SJ_CMDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SJ_CMFacade" Collapsed="true">
+    <Position X="39" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAEIAAAAAAAAAAAAAAAAACAEAAQIAABAAAAAAAAA=</HashCode>
+      <FileName>T3_SJ_CMFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SJ_ExDetailFacade" Collapsed="true">
+    <Position X="40.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIQAAEIAAQAAAAAAAAAAAAAAAAEAAQAAQAAAAAAAAAA=</HashCode>
+      <FileName>T3_SJ_ExDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SJ_ExFacade" Collapsed="true">
+    <Position X="42.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQABEIAAAAAAAAAAAAQAAAAAAEAAQAAABAAAAAAAAA=</HashCode>
+      <FileName>T3_SJ_ExFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SJDetailFacade" Collapsed="true">
+    <Position X="44.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoQAAEIAAIAAAAAAAAAAAAAAAAEIARAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_SJDetailFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.TerimaProcessFacade" Collapsed="true">
+    <Position X="46" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAIAAAAAAAAIAEAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>TerimaProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_SimetrisAutoProcessFacade">
+    <Position X="39.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAABAAIEAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>T3_SimetrisAutoProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory.T3_AsimetrisAutoProcessFacade">
+    <Position X="44.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAAAAIAECAQAAAEAAAAAAAIAAQAAAAA=</HashCode>
+      <FileName>T3_AsimetrisAutoProcessFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
